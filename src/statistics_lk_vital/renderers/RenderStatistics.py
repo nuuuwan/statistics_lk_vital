@@ -5,11 +5,9 @@ from svglib.svglib import svg2rlg
 from utils import Log, xmlx
 
 from statistics_lk_vital.core.AgeRange import AgeRange
-from statistics_lk_vital.core.Description import (
-    ROW_CODE_TO_COLOR,
-    ROW_CODE_TO_SIMPLE,
-    Description,
-)
+from statistics_lk_vital.core.Description import (ROW_CODE_TO_COLOR,
+                                                  ROW_CODE_TO_SIMPLE,
+                                                  Description)
 from statistics_lk_vital.core.Gender import Gender
 from statistics_lk_vital.core.MortalityStatistic import MortalityStatistic
 
