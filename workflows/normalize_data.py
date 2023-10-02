@@ -8,7 +8,7 @@ print(dir_data)
 
 
 def main():
-    for year in range(1992, 2023):
+    for year in range(1998, 2023):
         file_path = os.path.join(dir_data, f'cause-of-death-{year}.xlsx')
         if not os.path.exists(file_path):
             continue
