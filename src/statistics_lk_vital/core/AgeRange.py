@@ -20,6 +20,8 @@ class AgeRange:
             ('1-11months', AgeRange(0, 1)),
         ]:
             if phrase in x:
+                if age_range.age_min == 0:
+                    return None
                 return age_range
 
         if '-' not in x or 'total' in x or 'year' in x:

@@ -6,294 +6,279 @@
   </g>
   <g>
     <g>
-      <text x="152.38095238095238" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">0-1</text>
-      <text x="76.19047619047619" y="261.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Top</text>
-      <circle cx="152.38095238095238" cy="261.0" r="26.719468557589238" stroke="#008" fill="#008" fill-opacity="0.5"/>
-      <text x="152.38095238095238" y="261.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Newborn</text>
-      <text x="76.19047619047619" y="315.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">2nd</text>
-      <circle cx="152.38095238095238" cy="315.0" r="19.983743393068277" stroke="#00f" fill="#00f" fill-opacity="0.5"/>
-      <text x="152.38095238095238" y="315.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Birth Defects</text>
-      <text x="76.19047619047619" y="369.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">3rd</text>
-      <circle cx="152.38095238095238" cy="369.0" r="8.252878285786116" stroke="#888" fill="#888" fill-opacity="0.5"/>
-      <text x="76.19047619047619" y="423.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">4th</text>
-      <circle cx="152.38095238095238" cy="423.0" r="7.308214556237385" stroke="#080" fill="#080" fill-opacity="0.5"/>
-      <text x="76.19047619047619" y="477.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">5th</text>
-      <circle cx="152.38095238095238" cy="477.0" r="5.980802621722271" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
-      <text x="76.19047619047619" y="531.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">6th</text>
-      <circle cx="152.38095238095238" cy="531.0" r="5.898304841223451" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
-      <text x="76.19047619047619" y="585.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">7th</text>
-      <circle cx="152.38095238095238" cy="585.0" r="5.2848841046895245" stroke="#000" fill="#000" fill-opacity="0.5"/>
-      <text x="76.19047619047619" y="639.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">8th</text>
-      <circle cx="152.38095238095238" cy="639.0" r="5.143928459844674" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
-      <text x="76.19047619047619" y="693.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">9th</text>
-      <circle cx="152.38095238095238" cy="693.0" r="3.207802986469088" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
-      <text x="76.19047619047619" y="747.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">10th</text>
-      <circle cx="152.38095238095238" cy="747.0" r="3.1304951684997055" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
-      <circle cx="152.38095238095238" cy="801.0" r="4.695742752749558" stroke="#888" fill="#fff"/>
-      <text x="76.19047619047619" y="801.0" text-anchor="middle" dominant-baseline="middle" font-size="12" font-family="P22 Johnston" fill="#888">All Others</text>
+      <text x="160.0" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">1-4</text>
+      <text x="80.0" y="261.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Top</text>
+      <circle cx="160.0" cy="261.0" r="8.937001734362592" stroke="#00f" fill="#00f" fill-opacity="0.5"/>
+      <text x="160.0" y="261.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Birth Defects</text>
+      <text x="80.0" y="315.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">2nd</text>
+      <circle cx="160.0" cy="315.0" r="8.573214099741122" stroke="#000" fill="#000" fill-opacity="0.5"/>
+      <text x="80.0" y="369.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">3rd</text>
+      <circle cx="160.0" cy="369.0" r="6.377303505401009" stroke="#888" fill="#888" fill-opacity="0.5"/>
+      <text x="80.0" y="423.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">4th</text>
+      <circle cx="160.0" cy="423.0" r="6.182232606429493" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
+      <text x="80.0" y="477.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">5th</text>
+      <circle cx="160.0" cy="477.0" r="6.06217782649107" stroke="#080" fill="#080" fill-opacity="0.5"/>
+      <text x="80.0" y="531.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">6th</text>
+      <circle cx="160.0" cy="531.0" r="5.814636704042652" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
+      <text x="80.0" y="585.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">7th</text>
+      <circle cx="160.0" cy="585.0" r="4.643274706497559" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
+      <text x="80.0" y="639.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">8th</text>
+      <circle cx="160.0" cy="639.0" r="4.536518488885502" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
+      <text x="80.0" y="693.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">9th</text>
+      <circle cx="160.0" cy="693.0" r="3.0512292604784714" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
+      <text x="80.0" y="747.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">10th</text>
+      <circle cx="160.0" cy="747.0" r="2.2135943621178655" stroke="#cccccc" fill="#cccccc" fill-opacity="0.5"/>
+      <circle cx="160.0" cy="801.0" r="3.0512292604784714" stroke="#888" fill="#fff"/>
+      <text x="80.0" y="801.0" text-anchor="middle" dominant-baseline="middle" font-size="12" font-family="P22 Johnston" fill="#888">All Others</text>
     </g>
     <g>
-      <text x="228.57142857142856" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">1-4</text>
-      <circle cx="228.57142857142856" cy="261.0" r="8.937001734362592" stroke="#00f" fill="#00f" fill-opacity="0.5"/>
-      <circle cx="228.57142857142856" cy="315.0" r="8.573214099741122" stroke="#000" fill="#000" fill-opacity="0.5"/>
-      <circle cx="228.57142857142856" cy="369.0" r="6.377303505401009" stroke="#888" fill="#888" fill-opacity="0.5"/>
-      <circle cx="228.57142857142856" cy="423.0" r="6.182232606429493" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
-      <circle cx="228.57142857142856" cy="477.0" r="6.06217782649107" stroke="#080" fill="#080" fill-opacity="0.5"/>
-      <circle cx="228.57142857142856" cy="531.0" r="5.814636704042652" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
-      <circle cx="228.57142857142856" cy="585.0" r="4.643274706497559" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
-      <circle cx="228.57142857142856" cy="639.0" r="4.536518488885502" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
-      <circle cx="228.57142857142856" cy="693.0" r="3.0512292604784714" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
-      <circle cx="228.57142857142856" cy="747.0" r="2.2135943621178655" stroke="#cccccc" fill="#cccccc" fill-opacity="0.5"/>
-      <circle cx="228.57142857142856" cy="801.0" r="3.0512292604784714" stroke="#888" fill="#fff"/>
+      <text x="240.0" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">5-9</text>
+      <circle cx="240.0" cy="261.0" r="6.929646455628165" stroke="#000" fill="#000" fill-opacity="0.5"/>
+      <circle cx="240.0" cy="315.0" r="5.6" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
+      <circle cx="240.0" cy="369.0" r="4.643274706497559" stroke="#00f" fill="#00f" fill-opacity="0.5"/>
+      <circle cx="240.0" cy="423.0" r="4.371498598878879" stroke="#888" fill="#888" fill-opacity="0.5"/>
+      <circle cx="240.0" cy="477.0" r="4.08166632639171" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
+      <circle cx="240.0" cy="531.0" r="4.02119385257662" stroke="#080" fill="#080" fill-opacity="0.5"/>
+      <circle cx="240.0" cy="585.0" r="4.02119385257662" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
+      <circle cx="240.0" cy="639.0" r="2.619160170741759" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
+      <circle cx="240.0" cy="693.0" r="1.9798989873223332" stroke="#cccccc" fill="#cccccc" fill-opacity="0.5"/>
+      <circle cx="240.0" cy="747.0" r="1.8520259177452134" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
+      <circle cx="240.0" cy="801.0" r="3.283291031876401" stroke="#888" fill="#fff"/>
     </g>
     <g>
-      <text x="304.76190476190476" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">5-9</text>
-      <circle cx="304.76190476190476" cy="261.0" r="6.929646455628165" stroke="#000" fill="#000" fill-opacity="0.5"/>
-      <circle cx="304.76190476190476" cy="315.0" r="5.6" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
-      <circle cx="304.76190476190476" cy="369.0" r="4.643274706497559" stroke="#00f" fill="#00f" fill-opacity="0.5"/>
-      <circle cx="304.76190476190476" cy="423.0" r="4.371498598878879" stroke="#888" fill="#888" fill-opacity="0.5"/>
-      <circle cx="304.76190476190476" cy="477.0" r="4.08166632639171" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
-      <circle cx="304.76190476190476" cy="531.0" r="4.02119385257662" stroke="#080" fill="#080" fill-opacity="0.5"/>
-      <circle cx="304.76190476190476" cy="585.0" r="4.02119385257662" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
-      <circle cx="304.76190476190476" cy="639.0" r="2.619160170741759" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
-      <circle cx="304.76190476190476" cy="693.0" r="1.9798989873223332" stroke="#cccccc" fill="#cccccc" fill-opacity="0.5"/>
-      <circle cx="304.76190476190476" cy="747.0" r="1.8520259177452134" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
-      <circle cx="304.76190476190476" cy="801.0" r="3.283291031876401" stroke="#888" fill="#fff"/>
+      <text x="320.0" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">10-14</text>
+      <circle cx="320.0" cy="261.0" r="4.5902069670114" stroke="#000" fill="#000" fill-opacity="0.5"/>
+      <circle cx="320.0" cy="315.0" r="3.704051835490427" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
+      <circle cx="320.0" cy="369.0" r="3.704051835490427" stroke="#00f" fill="#00f" fill-opacity="0.5"/>
+      <circle cx="320.0" cy="423.0" r="2.8" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
+      <circle cx="320.0" cy="477.0" r="2.5238858928247923" stroke="#080" fill="#080" fill-opacity="0.5"/>
+      <circle cx="320.0" cy="531.0" r="2.3216373532487795" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
+      <circle cx="320.0" cy="585.0" r="2.2135943621178655" stroke="#888" fill="#888" fill-opacity="0.5"/>
+      <circle cx="320.0" cy="639.0" r="1.8520259177452134" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
+      <circle cx="320.0" cy="693.0" r="1.5652475842498528" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
+      <circle cx="320.0" cy="747.0" r="1.5652475842498528" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
+      <circle cx="320.0" cy="801.0" r="2.0999999999999996" stroke="#888" fill="#fff"/>
     </g>
     <g>
-      <text x="380.9523809523809" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">10-14</text>
-      <circle cx="380.9523809523809" cy="261.0" r="4.5902069670114" stroke="#000" fill="#000" fill-opacity="0.5"/>
-      <circle cx="380.9523809523809" cy="315.0" r="3.704051835490427" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
-      <circle cx="380.9523809523809" cy="369.0" r="3.704051835490427" stroke="#00f" fill="#00f" fill-opacity="0.5"/>
-      <circle cx="380.9523809523809" cy="423.0" r="2.8" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
-      <circle cx="380.9523809523809" cy="477.0" r="2.5238858928247923" stroke="#080" fill="#080" fill-opacity="0.5"/>
-      <circle cx="380.9523809523809" cy="531.0" r="2.3216373532487795" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
-      <circle cx="380.9523809523809" cy="585.0" r="2.2135943621178655" stroke="#888" fill="#888" fill-opacity="0.5"/>
-      <circle cx="380.9523809523809" cy="639.0" r="1.8520259177452134" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
-      <circle cx="380.9523809523809" cy="693.0" r="1.5652475842498528" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
-      <circle cx="380.9523809523809" cy="747.0" r="1.5652475842498528" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
-      <circle cx="380.9523809523809" cy="801.0" r="2.0999999999999996" stroke="#888" fill="#fff"/>
+      <text x="400.0" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">15-19</text>
+      <circle cx="400.0" cy="261.0" r="14.931510305391079" stroke="#000" fill="#000" fill-opacity="0.5"/>
+      <circle cx="400.0" cy="315.0" r="6.260990336999411" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
+      <circle cx="400.0" cy="369.0" r="5.331041174104736" stroke="#cccccc" fill="#cccccc" fill-opacity="0.5"/>
+      <text x="400.0" y="369.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Disappearance</text>
+      <circle cx="400.0" cy="423.0" r="5.096076922496362" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
+      <circle cx="400.0" cy="477.0" r="4.695742752749558" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
+      <circle cx="400.0" cy="531.0" r="4.482186966202994" stroke="#888" fill="#888" fill-opacity="0.5"/>
+      <circle cx="400.0" cy="585.0" r="4.482186966202994" stroke="#00f" fill="#00f" fill-opacity="0.5"/>
+      <circle cx="400.0" cy="639.0" r="4.371498598878879" stroke="#080" fill="#080" fill-opacity="0.5"/>
+      <circle cx="400.0" cy="693.0" r="4.08166632639171" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
+      <circle cx="400.0" cy="747.0" r="3.0512292604784714" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
+      <circle cx="400.0" cy="801.0" r="4.315089802078283" stroke="#888" fill="#fff"/>
     </g>
     <g>
-      <text x="457.1428571428571" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">15-19</text>
-      <circle cx="457.1428571428571" cy="261.0" r="14.931510305391079" stroke="#000" fill="#000" fill-opacity="0.5"/>
-      <circle cx="457.1428571428571" cy="315.0" r="6.260990336999411" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
-      <circle cx="457.1428571428571" cy="369.0" r="5.331041174104736" stroke="#cccccc" fill="#cccccc" fill-opacity="0.5"/>
-      <text x="457.1428571428571" y="369.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Disappearance</text>
-      <circle cx="457.1428571428571" cy="423.0" r="5.096076922496362" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
-      <circle cx="457.1428571428571" cy="477.0" r="4.695742752749558" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
-      <circle cx="457.1428571428571" cy="531.0" r="4.482186966202994" stroke="#888" fill="#888" fill-opacity="0.5"/>
-      <circle cx="457.1428571428571" cy="585.0" r="4.482186966202994" stroke="#00f" fill="#00f" fill-opacity="0.5"/>
-      <circle cx="457.1428571428571" cy="639.0" r="4.371498598878879" stroke="#080" fill="#080" fill-opacity="0.5"/>
-      <circle cx="457.1428571428571" cy="693.0" r="4.08166632639171" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
-      <circle cx="457.1428571428571" cy="747.0" r="3.0512292604784714" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
-      <circle cx="457.1428571428571" cy="801.0" r="4.315089802078283" stroke="#888" fill="#fff"/>
+      <text x="480.0" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">20-24</text>
+      <circle cx="480.0" cy="261.0" r="17.722584461641027" stroke="#000" fill="#000" fill-opacity="0.5"/>
+      <circle cx="480.0" cy="315.0" r="7.172865536171718" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
+      <circle cx="480.0" cy="369.0" r="6.3" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
+      <circle cx="480.0" cy="423.0" r="5.6" stroke="#888" fill="#888" fill-opacity="0.5"/>
+      <circle cx="480.0" cy="477.0" r="5.238320341483518" stroke="#080" fill="#080" fill-opacity="0.5"/>
+      <circle cx="480.0" cy="531.0" r="4.8999999999999995" stroke="#cccccc" fill="#cccccc" fill-opacity="0.5"/>
+      <circle cx="480.0" cy="585.0" r="4.482186966202994" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
+      <circle cx="480.0" cy="639.0" r="4.371498598878879" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
+      <circle cx="480.0" cy="693.0" r="4.199999999999999" stroke="#00f" fill="#00f" fill-opacity="0.5"/>
+      <circle cx="480.0" cy="747.0" r="3.5" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
+      <circle cx="480.0" cy="801.0" r="4.849742261192856" stroke="#888" fill="#fff"/>
     </g>
     <g>
-      <text x="533.3333333333333" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">20-24</text>
-      <circle cx="533.3333333333333" cy="261.0" r="17.722584461641027" stroke="#000" fill="#000" fill-opacity="0.5"/>
-      <circle cx="533.3333333333333" cy="315.0" r="7.172865536171718" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
-      <circle cx="533.3333333333333" cy="369.0" r="6.3" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
-      <circle cx="533.3333333333333" cy="423.0" r="5.6" stroke="#888" fill="#888" fill-opacity="0.5"/>
-      <circle cx="533.3333333333333" cy="477.0" r="5.238320341483518" stroke="#080" fill="#080" fill-opacity="0.5"/>
-      <circle cx="533.3333333333333" cy="531.0" r="4.8999999999999995" stroke="#cccccc" fill="#cccccc" fill-opacity="0.5"/>
-      <circle cx="533.3333333333333" cy="585.0" r="4.482186966202994" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
-      <circle cx="533.3333333333333" cy="639.0" r="4.371498598878879" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
-      <circle cx="533.3333333333333" cy="693.0" r="4.199999999999999" stroke="#00f" fill="#00f" fill-opacity="0.5"/>
-      <circle cx="533.3333333333333" cy="747.0" r="3.5" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
-      <circle cx="533.3333333333333" cy="801.0" r="4.849742261192856" stroke="#888" fill="#fff"/>
+      <text x="560.0" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">25-29</text>
+      <circle cx="560.0" cy="261.0" r="17.736403243047896" stroke="#000" fill="#000" fill-opacity="0.5"/>
+      <circle cx="560.0" cy="315.0" r="8.573214099741122" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
+      <circle cx="560.0" cy="369.0" r="6.182232606429493" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
+      <circle cx="560.0" cy="423.0" r="5.376802023508025" stroke="#080" fill="#080" fill-opacity="0.5"/>
+      <circle cx="560.0" cy="477.0" r="5.143928459844674" stroke="#888" fill="#888" fill-opacity="0.5"/>
+      <circle cx="560.0" cy="531.0" r="5.0477717856495845" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
+      <circle cx="560.0" cy="585.0" r="4.747630988187687" stroke="#cccccc" fill="#cccccc" fill-opacity="0.5"/>
+      <circle cx="560.0" cy="639.0" r="4.315089802078283" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
+      <circle cx="560.0" cy="693.0" r="3.8340579025361627" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
+      <circle cx="560.0" cy="747.0" r="3.704051835490427" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
+      <circle cx="560.0" cy="801.0" r="5.191338940966964" stroke="#888" fill="#fff"/>
     </g>
     <g>
-      <text x="609.5238095238095" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">25-29</text>
-      <circle cx="609.5238095238095" cy="261.0" r="17.736403243047896" stroke="#000" fill="#000" fill-opacity="0.5"/>
-      <circle cx="609.5238095238095" cy="315.0" r="8.573214099741122" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
-      <circle cx="609.5238095238095" cy="369.0" r="6.182232606429493" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
-      <circle cx="609.5238095238095" cy="423.0" r="5.376802023508025" stroke="#080" fill="#080" fill-opacity="0.5"/>
-      <circle cx="609.5238095238095" cy="477.0" r="5.143928459844674" stroke="#888" fill="#888" fill-opacity="0.5"/>
-      <circle cx="609.5238095238095" cy="531.0" r="5.0477717856495845" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
-      <circle cx="609.5238095238095" cy="585.0" r="4.747630988187687" stroke="#cccccc" fill="#cccccc" fill-opacity="0.5"/>
-      <circle cx="609.5238095238095" cy="639.0" r="4.315089802078283" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
-      <circle cx="609.5238095238095" cy="693.0" r="3.8340579025361627" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
-      <circle cx="609.5238095238095" cy="747.0" r="3.704051835490427" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
-      <circle cx="609.5238095238095" cy="801.0" r="5.191338940966964" stroke="#888" fill="#fff"/>
+      <text x="640.0" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">30-34</text>
+      <circle cx="640.0" cy="261.0" r="18.70454490224234" stroke="#000" fill="#000" fill-opacity="0.5"/>
+      <circle cx="640.0" cy="315.0" r="10.776363022838456" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
+      <circle cx="640.0" cy="369.0" r="9.1" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
+      <circle cx="640.0" cy="423.0" r="7.2069410986909" stroke="#080" fill="#080" fill-opacity="0.5"/>
+      <circle cx="640.0" cy="477.0" r="6.06217782649107" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
+      <circle cx="640.0" cy="531.0" r="5.729746940310715" stroke="#888" fill="#888" fill-opacity="0.5"/>
+      <circle cx="640.0" cy="585.0" r="5.2848841046895245" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
+      <circle cx="640.0" cy="639.0" r="4.695742752749558" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
+      <circle cx="640.0" cy="693.0" r="4.536518488885502" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
+      <circle cx="640.0" cy="747.0" r="4.371498598878879" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
+      <circle cx="640.0" cy="801.0" r="5.686826883245172" stroke="#888" fill="#fff"/>
     </g>
     <g>
-      <text x="685.7142857142857" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">30-34</text>
-      <circle cx="685.7142857142857" cy="261.0" r="18.70454490224234" stroke="#000" fill="#000" fill-opacity="0.5"/>
-      <circle cx="685.7142857142857" cy="315.0" r="10.776363022838456" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
-      <circle cx="685.7142857142857" cy="369.0" r="9.1" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
-      <circle cx="685.7142857142857" cy="423.0" r="7.2069410986909" stroke="#080" fill="#080" fill-opacity="0.5"/>
-      <circle cx="685.7142857142857" cy="477.0" r="6.06217782649107" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
-      <circle cx="685.7142857142857" cy="531.0" r="5.729746940310715" stroke="#888" fill="#888" fill-opacity="0.5"/>
-      <circle cx="685.7142857142857" cy="585.0" r="5.2848841046895245" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
-      <circle cx="685.7142857142857" cy="639.0" r="4.695742752749558" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
-      <circle cx="685.7142857142857" cy="693.0" r="4.536518488885502" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
-      <circle cx="685.7142857142857" cy="747.0" r="4.371498598878879" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
-      <circle cx="685.7142857142857" cy="801.0" r="5.686826883245172" stroke="#888" fill="#fff"/>
+      <text x="720.0" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">35-39</text>
+      <circle cx="720.0" cy="261.0" r="17.736403243047896" stroke="#000" fill="#000" fill-opacity="0.5"/>
+      <circle cx="720.0" cy="315.0" r="13.151805959639153" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
+      <circle cx="720.0" cy="369.0" r="11.134181604410806" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
+      <circle cx="720.0" cy="423.0" r="7.571657678474377" stroke="#080" fill="#080" fill-opacity="0.5"/>
+      <circle cx="720.0" cy="477.0" r="7.274613391789284" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
+      <circle cx="720.0" cy="531.0" r="6.894200461257272" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
+      <circle cx="720.0" cy="585.0" r="6.822756041366274" stroke="#888" fill="#888" fill-opacity="0.5"/>
+      <circle cx="720.0" cy="639.0" r="6.260990336999411" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
+      <circle cx="720.0" cy="693.0" r="5.511805511808268" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
+      <circle cx="720.0" cy="747.0" r="5.376802023508025" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
+      <circle cx="720.0" cy="801.0" r="6.142475071174485" stroke="#888" fill="#fff"/>
     </g>
     <g>
-      <text x="761.9047619047618" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">35-39</text>
-      <circle cx="761.9047619047618" cy="261.0" r="17.736403243047896" stroke="#000" fill="#000" fill-opacity="0.5"/>
-      <circle cx="761.9047619047618" cy="315.0" r="13.151805959639153" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
-      <circle cx="761.9047619047618" cy="369.0" r="11.134181604410806" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
-      <circle cx="761.9047619047618" cy="423.0" r="7.571657678474377" stroke="#080" fill="#080" fill-opacity="0.5"/>
-      <circle cx="761.9047619047618" cy="477.0" r="7.274613391789284" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
-      <circle cx="761.9047619047618" cy="531.0" r="6.894200461257272" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
-      <circle cx="761.9047619047618" cy="585.0" r="6.822756041366274" stroke="#888" fill="#888" fill-opacity="0.5"/>
-      <circle cx="761.9047619047618" cy="639.0" r="6.260990336999411" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
-      <circle cx="761.9047619047618" cy="693.0" r="5.511805511808268" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
-      <circle cx="761.9047619047618" cy="747.0" r="5.376802023508025" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
-      <circle cx="761.9047619047618" cy="801.0" r="6.142475071174485" stroke="#888" fill="#fff"/>
+      <text x="800.0" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">40-44</text>
+      <circle cx="800.0" cy="261.0" r="17.555910685578233" stroke="#000" fill="#000" fill-opacity="0.5"/>
+      <circle cx="800.0" cy="315.0" r="16.974097914174997" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
+      <circle cx="800.0" cy="369.0" r="14.4138821973818" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
+      <circle cx="800.0" cy="423.0" r="9.391485505499116" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
+      <circle cx="800.0" cy="477.0" r="9.153687781435414" stroke="#888" fill="#888" fill-opacity="0.5"/>
+      <circle cx="800.0" cy="531.0" r="7.919595949289333" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
+      <circle cx="800.0" cy="585.0" r="7.79487010796203" stroke="#080" fill="#080" fill-opacity="0.5"/>
+      <circle cx="800.0" cy="639.0" r="7.603946343840151" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
+      <circle cx="800.0" cy="693.0" r="7.138627319029898" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
+      <circle cx="800.0" cy="747.0" r="5.729746940310715" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
+      <circle cx="800.0" cy="801.0" r="5.898304841223451" stroke="#888" fill="#fff"/>
     </g>
     <g>
-      <text x="838.0952380952382" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">40-44</text>
-      <circle cx="838.0952380952382" cy="261.0" r="17.555910685578233" stroke="#000" fill="#000" fill-opacity="0.5"/>
-      <circle cx="838.0952380952382" cy="315.0" r="16.974097914174997" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
-      <circle cx="838.0952380952382" cy="369.0" r="14.4138821973818" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
-      <circle cx="838.0952380952382" cy="423.0" r="9.391485505499116" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
-      <circle cx="838.0952380952382" cy="477.0" r="9.153687781435414" stroke="#888" fill="#888" fill-opacity="0.5"/>
-      <circle cx="838.0952380952382" cy="531.0" r="7.919595949289333" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
-      <circle cx="838.0952380952382" cy="585.0" r="7.79487010796203" stroke="#080" fill="#080" fill-opacity="0.5"/>
-      <circle cx="838.0952380952382" cy="639.0" r="7.603946343840151" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
-      <circle cx="838.0952380952382" cy="693.0" r="7.138627319029898" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
-      <circle cx="838.0952380952382" cy="747.0" r="5.729746940310715" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
-      <circle cx="838.0952380952382" cy="801.0" r="5.898304841223451" stroke="#888" fill="#fff"/>
+      <text x="880.0000000000001" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">45-49</text>
+      <circle cx="880.0000000000001" cy="261.0" r="23.789703655153" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
+      <circle cx="880.0000000000001" cy="315.0" r="19.016308790088573" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
+      <circle cx="880.0000000000001" cy="369.0" r="18.86107101943047" stroke="#000" fill="#000" fill-opacity="0.5"/>
+      <circle cx="880.0000000000001" cy="423.0" r="12.12435565298214" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
+      <circle cx="880.0000000000001" cy="477.0" r="11.713240371477058" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
+      <circle cx="880.0000000000001" cy="531.0" r="11.221853679316979" stroke="#888" fill="#888" fill-opacity="0.5"/>
+      <circle cx="880.0000000000001" cy="585.0" r="10.5" stroke="#080" fill="#080" fill-opacity="0.5"/>
+      <circle cx="880.0000000000001" cy="639.0" r="10.359054010864119" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
+      <circle cx="880.0000000000001" cy="693.0" r="8.487048957087499" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
+      <circle cx="880.0000000000001" cy="747.0" r="8.312039460926542" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
+      <circle cx="880.0000000000001" cy="801.0" r="6.377303505401009" stroke="#888" fill="#fff"/>
     </g>
     <g>
-      <text x="914.2857142857142" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">45-49</text>
-      <circle cx="914.2857142857142" cy="261.0" r="23.789703655153" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
-      <circle cx="914.2857142857142" cy="315.0" r="19.016308790088573" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
-      <circle cx="914.2857142857142" cy="369.0" r="18.86107101943047" stroke="#000" fill="#000" fill-opacity="0.5"/>
-      <circle cx="914.2857142857142" cy="423.0" r="12.12435565298214" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
-      <circle cx="914.2857142857142" cy="477.0" r="11.713240371477058" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
-      <circle cx="914.2857142857142" cy="531.0" r="11.221853679316979" stroke="#888" fill="#888" fill-opacity="0.5"/>
-      <circle cx="914.2857142857142" cy="585.0" r="10.5" stroke="#080" fill="#080" fill-opacity="0.5"/>
-      <circle cx="914.2857142857142" cy="639.0" r="10.359054010864119" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
-      <circle cx="914.2857142857142" cy="693.0" r="8.487048957087499" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
-      <circle cx="914.2857142857142" cy="747.0" r="8.312039460926542" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
-      <circle cx="914.2857142857142" cy="801.0" r="6.377303505401009" stroke="#888" fill="#fff"/>
+      <text x="960.0" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">50-54</text>
+      <circle cx="960.0" cy="261.0" r="30.752235691084312" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
+      <circle cx="960.0" cy="315.0" r="24.579869812511213" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
+      <circle cx="960.0" cy="369.0" r="18.9" stroke="#000" fill="#000" fill-opacity="0.5"/>
+      <circle cx="960.0" cy="423.0" r="16.90177505470949" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
+      <circle cx="960.0" cy="477.0" r="15.495160534825057" stroke="#888" fill="#888" fill-opacity="0.5"/>
+      <circle cx="960.0" cy="531.0" r="14.034956359034394" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
+      <circle cx="960.0" cy="585.0" r="13.734991809244008" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
+      <circle cx="960.0" cy="639.0" r="12.831211945876351" stroke="#080" fill="#080" fill-opacity="0.5"/>
+      <circle cx="960.0" cy="693.0" r="10.685036265731622" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
+      <circle cx="960.0" cy="747.0" r="10.476640682967036" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
+      <circle cx="960.0" cy="801.0" r="5.939696961966998" stroke="#888" fill="#fff"/>
     </g>
     <g>
-      <text x="990.4761904761905" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">50-54</text>
-      <circle cx="990.4761904761905" cy="261.0" r="30.752235691084312" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
-      <circle cx="990.4761904761905" cy="315.0" r="24.579869812511213" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
-      <circle cx="990.4761904761905" cy="369.0" r="18.9" stroke="#000" fill="#000" fill-opacity="0.5"/>
-      <circle cx="990.4761904761905" cy="423.0" r="16.90177505470949" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
-      <circle cx="990.4761904761905" cy="477.0" r="15.495160534825057" stroke="#888" fill="#888" fill-opacity="0.5"/>
-      <circle cx="990.4761904761905" cy="531.0" r="14.034956359034394" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
-      <circle cx="990.4761904761905" cy="585.0" r="13.734991809244008" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
-      <circle cx="990.4761904761905" cy="639.0" r="12.831211945876351" stroke="#080" fill="#080" fill-opacity="0.5"/>
-      <circle cx="990.4761904761905" cy="693.0" r="10.685036265731622" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
-      <circle cx="990.4761904761905" cy="747.0" r="10.476640682967036" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
-      <circle cx="990.4761904761905" cy="801.0" r="5.939696961966998" stroke="#888" fill="#fff"/>
+      <text x="1040.0" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">55-59</text>
+      <circle cx="1040.0" cy="261.0" r="35.70686208559918" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
+      <circle cx="1040.0" cy="315.0" r="27.886018001858925" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
+      <circle cx="1040.0" cy="369.0" r="20.800721141345075" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
+      <circle cx="1040.0" cy="423.0" r="20.05716829465216" stroke="#000" fill="#000" fill-opacity="0.5"/>
+      <text x="1040.0" y="423.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Accidents / Injuries</text>
+      <circle cx="1040.0" cy="477.0" r="17.75021126634835" stroke="#888" fill="#888" fill-opacity="0.5"/>
+      <circle cx="1040.0" cy="531.0" r="15.870097668256488" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
+      <circle cx="1040.0" cy="585.0" r="14.61642911247477" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
+      <circle cx="1040.0" cy="639.0" r="13.663454907160196" stroke="#080" fill="#080" fill-opacity="0.5"/>
+      <circle cx="1040.0" cy="693.0" r="12.735383779062177" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
+      <circle cx="1040.0" cy="747.0" r="12.164703037887936" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
+      <circle cx="1040.0" cy="801.0" r="6.964912059746339" stroke="#888" fill="#fff"/>
     </g>
     <g>
-      <text x="1066.6666666666665" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">55-59</text>
-      <circle cx="1066.6666666666665" cy="261.0" r="35.70686208559918" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
-      <circle cx="1066.6666666666665" cy="315.0" r="27.886018001858925" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
-      <circle cx="1066.6666666666665" cy="369.0" r="20.800721141345075" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
-      <circle cx="1066.6666666666665" cy="423.0" r="20.05716829465216" stroke="#000" fill="#000" fill-opacity="0.5"/>
-      <text x="1066.6666666666665" y="423.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Accidents / Injuries</text>
-      <circle cx="1066.6666666666665" cy="477.0" r="17.75021126634835" stroke="#888" fill="#888" fill-opacity="0.5"/>
-      <circle cx="1066.6666666666665" cy="531.0" r="15.870097668256488" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
-      <circle cx="1066.6666666666665" cy="585.0" r="14.61642911247477" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
-      <circle cx="1066.6666666666665" cy="639.0" r="13.663454907160196" stroke="#080" fill="#080" fill-opacity="0.5"/>
-      <circle cx="1066.6666666666665" cy="693.0" r="12.735383779062177" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
-      <circle cx="1066.6666666666665" cy="747.0" r="12.164703037887936" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
-      <circle cx="1066.6666666666665" cy="801.0" r="6.964912059746339" stroke="#888" fill="#fff"/>
+      <text x="1120.0" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">60-64</text>
+      <circle cx="1120.0" cy="261.0" r="42.56207231796873" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
+      <circle cx="1120.0" cy="315.0" r="32.05510879719487" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
+      <text x="1120.0" y="315.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Cancers</text>
+      <circle cx="1120.0" cy="369.0" r="24.90662562452007" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
+      <circle cx="1120.0" cy="423.0" r="22.509109267138935" stroke="#888" fill="#888" fill-opacity="0.5"/>
+      <circle cx="1120.0" cy="477.0" r="18.078440198202937" stroke="#000" fill="#000" fill-opacity="0.5"/>
+      <circle cx="1120.0" cy="531.0" r="17.874003468725185" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
+      <circle cx="1120.0" cy="585.0" r="17.75021126634835" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
+      <circle cx="1120.0" cy="639.0" r="16.82914139223983" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
+      <circle cx="1120.0" cy="693.0" r="15.993123522314207" stroke="#080" fill="#080" fill-opacity="0.5"/>
+      <circle cx="1120.0" cy="747.0" r="15.463505424062165" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
+      <text x="1120.0" y="747.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Digestive</text>
+      <circle cx="1120.0" cy="801.0" r="6.964912059746339" stroke="#888" fill="#fff"/>
     </g>
     <g>
-      <text x="1142.857142857143" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">60-64</text>
-      <circle cx="1142.857142857143" cy="261.0" r="42.56207231796873" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
-      <circle cx="1142.857142857143" cy="315.0" r="32.05510879719487" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
-      <text x="1142.857142857143" y="315.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Cancers</text>
-      <circle cx="1142.857142857143" cy="369.0" r="24.90662562452007" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
-      <circle cx="1142.857142857143" cy="423.0" r="22.509109267138935" stroke="#888" fill="#888" fill-opacity="0.5"/>
-      <circle cx="1142.857142857143" cy="477.0" r="18.078440198202937" stroke="#000" fill="#000" fill-opacity="0.5"/>
-      <circle cx="1142.857142857143" cy="531.0" r="17.874003468725185" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
-      <circle cx="1142.857142857143" cy="585.0" r="17.75021126634835" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
-      <circle cx="1142.857142857143" cy="639.0" r="16.82914139223983" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
-      <circle cx="1142.857142857143" cy="693.0" r="15.993123522314207" stroke="#080" fill="#080" fill-opacity="0.5"/>
-      <circle cx="1142.857142857143" cy="747.0" r="15.463505424062165" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
-      <text x="1142.857142857143" y="747.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Digestive</text>
-      <circle cx="1142.857142857143" cy="801.0" r="6.964912059746339" stroke="#888" fill="#fff"/>
+      <text x="1200.0" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">65-69</text>
+      <circle cx="1200.0" cy="261.0" r="46.18408816897871" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
+      <circle cx="1200.0" cy="315.0" r="31.80188673648153" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
+      <circle cx="1200.0" cy="369.0" r="28.878711882630775" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
+      <circle cx="1200.0" cy="423.0" r="26.275654130772843" stroke="#888" fill="#888" fill-opacity="0.5"/>
+      <circle cx="1200.0" cy="477.0" r="23.468276459936295" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
+      <circle cx="1200.0" cy="531.0" r="21.7" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
+      <circle cx="1200.0" cy="585.0" r="18.70454490224234" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
+      <text x="1200.0" y="585.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Genito-urinary</text>
+      <circle cx="1200.0" cy="639.0" r="17.260359208313133" stroke="#000" fill="#000" fill-opacity="0.5"/>
+      <circle cx="1200.0" cy="693.0" r="16.34166454190025" stroke="#080" fill="#080" fill-opacity="0.5"/>
+      <text x="1200.0" y="693.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Infectious</text>
+      <circle cx="1200.0" cy="747.0" r="14.549226783578568" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
+      <circle cx="1200.0" cy="801.0" r="7.408103670980854" stroke="#888" fill="#fff"/>
     </g>
     <g>
-      <text x="1219.047619047619" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">65-69</text>
-      <circle cx="1219.047619047619" cy="261.0" r="46.18408816897871" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
-      <circle cx="1219.047619047619" cy="315.0" r="31.80188673648153" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
-      <circle cx="1219.047619047619" cy="369.0" r="28.878711882630775" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
-      <circle cx="1219.047619047619" cy="423.0" r="26.275654130772843" stroke="#888" fill="#888" fill-opacity="0.5"/>
-      <circle cx="1219.047619047619" cy="477.0" r="23.468276459936295" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
-      <circle cx="1219.047619047619" cy="531.0" r="21.7" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
-      <circle cx="1219.047619047619" cy="585.0" r="18.70454490224234" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
-      <text x="1219.047619047619" y="585.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Genito-urinary</text>
-      <circle cx="1219.047619047619" cy="639.0" r="17.260359208313133" stroke="#000" fill="#000" fill-opacity="0.5"/>
-      <circle cx="1219.047619047619" cy="693.0" r="16.34166454190025" stroke="#080" fill="#080" fill-opacity="0.5"/>
-      <text x="1219.047619047619" y="693.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Infectious</text>
-      <circle cx="1219.047619047619" cy="747.0" r="14.549226783578568" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
-      <circle cx="1219.047619047619" cy="801.0" r="7.408103670980854" stroke="#888" fill="#fff"/>
+      <text x="1280.0" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">70-74</text>
+      <circle cx="1280.0" cy="261.0" r="47.841300149556965" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
+      <text x="1280.0" y="261.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Heart</text>
+      <circle cx="1280.0" cy="315.0" r="32.04746479832687" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
+      <circle cx="1280.0" cy="369.0" r="30.059274775017442" stroke="#888" fill="#888" fill-opacity="0.5"/>
+      <circle cx="1280.0" cy="423.0" r="29.838398080325955" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
+      <circle cx="1280.0" cy="477.0" r="29.26636294451362" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
+      <text x="1280.0" y="477.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Metabolic / Nutritional</text>
+      <circle cx="1280.0" cy="531.0" r="28.477183849531187" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
+      <circle cx="1280.0" cy="585.0" r="18.453996857049695" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
+      <circle cx="1280.0" cy="639.0" r="15.900943368240766" stroke="#080" fill="#080" fill-opacity="0.5"/>
+      <circle cx="1280.0" cy="693.0" r="15.399999999999999" stroke="#000" fill="#000" fill-opacity="0.5"/>
+      <circle cx="1280.0" cy="747.0" r="12.964181424216495" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
+      <circle cx="1280.0" cy="801.0" r="7.2069410986909" stroke="#888" fill="#fff"/>
     </g>
     <g>
-      <text x="1295.2380952380952" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">70-74</text>
-      <circle cx="1295.2380952380952" cy="261.0" r="47.841300149556965" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
-      <text x="1295.2380952380952" y="261.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Heart</text>
-      <circle cx="1295.2380952380952" cy="315.0" r="32.04746479832687" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
-      <circle cx="1295.2380952380952" cy="369.0" r="30.059274775017442" stroke="#888" fill="#888" fill-opacity="0.5"/>
-      <circle cx="1295.2380952380952" cy="423.0" r="29.838398080325955" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
-      <circle cx="1295.2380952380952" cy="477.0" r="29.26636294451362" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
-      <text x="1295.2380952380952" y="477.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Metabolic / Nutritional</text>
-      <circle cx="1295.2380952380952" cy="531.0" r="28.477183849531187" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
-      <circle cx="1295.2380952380952" cy="585.0" r="18.453996857049695" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
-      <circle cx="1295.2380952380952" cy="639.0" r="15.900943368240766" stroke="#080" fill="#080" fill-opacity="0.5"/>
-      <circle cx="1295.2380952380952" cy="693.0" r="15.399999999999999" stroke="#000" fill="#000" fill-opacity="0.5"/>
-      <circle cx="1295.2380952380952" cy="747.0" r="12.964181424216495" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
-      <circle cx="1295.2380952380952" cy="801.0" r="7.2069410986909" stroke="#888" fill="#fff"/>
+      <text x="1360.0" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">75-79</text>
+      <circle cx="1360.0" cy="261.0" r="46.638074574321784" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
+      <circle cx="1360.0" cy="315.0" r="38.404426828166564" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
+      <circle cx="1360.0" cy="369.0" r="31.414327941243624" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
+      <circle cx="1360.0" cy="423.0" r="30.99822575567834" stroke="#888" fill="#888" fill-opacity="0.5"/>
+      <circle cx="1360.0" cy="477.0" r="27.092803472509075" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
+      <circle cx="1360.0" cy="531.0" r="25.422627716268828" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
+      <circle cx="1360.0" cy="585.0" r="16.29662541755194" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
+      <circle cx="1360.0" cy="639.0" r="15.479341071247186" stroke="#080" fill="#080" fill-opacity="0.5"/>
+      <circle cx="1360.0" cy="693.0" r="13.336791218280354" stroke="#000" fill="#000" fill-opacity="0.5"/>
+      <circle cx="1360.0" cy="747.0" r="11.001363551851197" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
+      <circle cx="1360.0" cy="801.0" r="7.374957626996916" stroke="#888" fill="#fff"/>
     </g>
     <g>
-      <text x="1371.4285714285713" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">75-79</text>
-      <circle cx="1371.4285714285713" cy="261.0" r="46.638074574321784" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
-      <circle cx="1371.4285714285713" cy="315.0" r="38.404426828166564" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
-      <circle cx="1371.4285714285713" cy="369.0" r="31.414327941243624" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
-      <circle cx="1371.4285714285713" cy="423.0" r="30.99822575567834" stroke="#888" fill="#888" fill-opacity="0.5"/>
-      <circle cx="1371.4285714285713" cy="477.0" r="27.092803472509075" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
-      <circle cx="1371.4285714285713" cy="531.0" r="25.422627716268828" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
-      <circle cx="1371.4285714285713" cy="585.0" r="16.29662541755194" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
-      <circle cx="1371.4285714285713" cy="639.0" r="15.479341071247186" stroke="#080" fill="#080" fill-opacity="0.5"/>
-      <circle cx="1371.4285714285713" cy="693.0" r="13.336791218280354" stroke="#000" fill="#000" fill-opacity="0.5"/>
-      <circle cx="1371.4285714285713" cy="747.0" r="11.001363551851197" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
-      <circle cx="1371.4285714285713" cy="801.0" r="7.374957626996916" stroke="#888" fill="#fff"/>
+      <text x="1440.0" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">80-84</text>
+      <circle cx="1440.0" cy="261.0" r="48.3" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
+      <circle cx="1440.0" cy="315.0" r="44.73980330756942" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
+      <circle cx="1440.0" cy="369.0" r="33.24815784370617" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
+      <circle cx="1440.0" cy="423.0" r="31.187337173923645" stroke="#888" fill="#888" fill-opacity="0.5"/>
+      <circle cx="1440.0" cy="477.0" r="24.936118382779625" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
+      <circle cx="1440.0" cy="531.0" r="20.08158360289347" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
+      <circle cx="1440.0" cy="585.0" r="15.526751108973183" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
+      <circle cx="1440.0" cy="639.0" r="13.982489048806723" stroke="#080" fill="#080" fill-opacity="0.5"/>
+      <circle cx="1440.0" cy="693.0" r="12.06358155772986" stroke="#000" fill="#000" fill-opacity="0.5"/>
+      <circle cx="1440.0" cy="747.0" r="9.312894286955048" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
+      <circle cx="1440.0" cy="801.0" r="6.786751800382861" stroke="#888" fill="#fff"/>
     </g>
     <g>
-      <text x="1447.6190476190477" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">80-84</text>
-      <circle cx="1447.6190476190477" cy="261.0" r="48.3" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
-      <circle cx="1447.6190476190477" cy="315.0" r="44.73980330756942" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
-      <circle cx="1447.6190476190477" cy="369.0" r="33.24815784370617" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
-      <circle cx="1447.6190476190477" cy="423.0" r="31.187337173923645" stroke="#888" fill="#888" fill-opacity="0.5"/>
-      <circle cx="1447.6190476190477" cy="477.0" r="24.936118382779625" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
-      <circle cx="1447.6190476190477" cy="531.0" r="20.08158360289347" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
-      <circle cx="1447.6190476190477" cy="585.0" r="15.526751108973183" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
-      <circle cx="1447.6190476190477" cy="639.0" r="13.982489048806723" stroke="#080" fill="#080" fill-opacity="0.5"/>
-      <circle cx="1447.6190476190477" cy="693.0" r="12.06358155772986" stroke="#000" fill="#000" fill-opacity="0.5"/>
-      <circle cx="1447.6190476190477" cy="747.0" r="9.312894286955048" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
-      <circle cx="1447.6190476190477" cy="801.0" r="6.786751800382861" stroke="#888" fill="#fff"/>
-    </g>
-    <g>
-      <text x="1523.8095238095236" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">85-120</text>
-      <circle cx="1523.8095238095236" cy="261.0" r="64.35052447338717" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
-      <text x="1523.8095238095236" y="261.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Unspecified</text>
-      <circle cx="1523.8095238095236" cy="315.0" r="45.35978395010276" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
-      <circle cx="1523.8095238095236" cy="369.0" r="35.80279318712438" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
-      <text x="1523.8095238095236" y="369.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Nervous</text>
-      <circle cx="1523.8095238095236" cy="423.0" r="33.65828278447966" stroke="#888" fill="#888" fill-opacity="0.5"/>
-      <text x="1523.8095238095236" y="423.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Respiratory</text>
-      <circle cx="1523.8095238095236" cy="477.0" r="23.57244153667583" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
-      <circle cx="1523.8095238095236" cy="531.0" r="16.594577427581577" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
-      <circle cx="1523.8095238095236" cy="585.0" r="15.479341071247186" stroke="#080" fill="#080" fill-opacity="0.5"/>
-      <circle cx="1523.8095238095236" cy="639.0" r="15.078461459976609" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
-      <circle cx="1523.8095238095236" cy="693.0" r="12.344634461983878" stroke="#000" fill="#000" fill-opacity="0.5"/>
-      <circle cx="1523.8095238095236" cy="747.0" r="8.714929718592112" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
-      <circle cx="1523.8095238095236" cy="801.0" r="7.408103670980854" stroke="#888" fill="#fff"/>
+      <text x="1520.0" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">85-120</text>
+      <circle cx="1520.0" cy="261.0" r="64.35052447338717" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
+      <text x="1520.0" y="261.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Unspecified</text>
+      <circle cx="1520.0" cy="315.0" r="45.35978395010276" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
+      <circle cx="1520.0" cy="369.0" r="35.80279318712438" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
+      <text x="1520.0" y="369.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Nervous</text>
+      <circle cx="1520.0" cy="423.0" r="33.65828278447966" stroke="#888" fill="#888" fill-opacity="0.5"/>
+      <text x="1520.0" y="423.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Respiratory</text>
+      <circle cx="1520.0" cy="477.0" r="23.57244153667583" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
+      <circle cx="1520.0" cy="531.0" r="16.594577427581577" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
+      <circle cx="1520.0" cy="585.0" r="15.479341071247186" stroke="#080" fill="#080" fill-opacity="0.5"/>
+      <circle cx="1520.0" cy="639.0" r="15.078461459976609" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
+      <circle cx="1520.0" cy="693.0" r="12.344634461983878" stroke="#000" fill="#000" fill-opacity="0.5"/>
+      <circle cx="1520.0" cy="747.0" r="8.714929718592112" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
+      <circle cx="1520.0" cy="801.0" r="7.408103670980854" stroke="#888" fill="#fff"/>
     </g>
   </g>
   <g>

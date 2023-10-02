@@ -14,8 +14,6 @@ def main():
             continue
         if '2006' in file_name:
             continue
-        if '199' in file_name:
-            continue
         png_path = os.path.join(dir_images, file_name)
         images.append(imageio.imread(png_path))
     gif_path = os.path.join(dir_images, 'cause-of-death-ALL.gif')
