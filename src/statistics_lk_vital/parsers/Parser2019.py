@@ -46,18 +46,26 @@ class Parser2019:
         i_row = 0
         col_to_age = None
         col_to_gender = None
-        offset_i_row_by_year = 0 if self.year in [2019, 2015] else 1
+
+        i_data_row_start = None
+        for i_row, row in enumerate(sheet.iter_rows(values_only=True)):
+            cells0 = list(row)[0]
+            if cells0 is not None and cells0.strip().startswith('1-'):
+                i_data_row_start = i_row
+                break
+        log.debug(f'{i_data_row_start=}')
 
         for i_row, row in enumerate(sheet.iter_rows(values_only=True)):
-            if i_row < 3 + offset_i_row_by_year:
-                continue
             cells = list(row)
 
-            if i_row == 3 + offset_i_row_by_year:  # Age:
+            if i_row < i_data_row_start - 2:
+                continue
+
+            if i_row == i_data_row_start - 2:  # Age:
                 col_to_age = parse_col_to_age(cells)
                 continue
 
-            if i_row == 4 + offset_i_row_by_year:  # Gender
+            if i_row == i_data_row_start - 1:  # Gender
                 col_to_gender = parse_col_to_gender(cells)
                 continue
 

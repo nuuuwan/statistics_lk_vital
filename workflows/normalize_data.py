@@ -8,8 +8,10 @@ print(dir_data)
 
 
 def main():
-    for year in [2019, 2015, 2014, 2013, 2012, 2011, 2010]:
+    for year in range(1992, 2023):
         file_path = os.path.join(dir_data, f'cause-of-death-{year}.xlsx')
+        if not os.path.exists(file_path):
+            continue
         parser = Parser2019(year, file_path)
         statistics = parser.parse()
         MortalityStatistic.write(
