@@ -27,10 +27,6 @@ class MortalityStatistic:
     def age_range(self) -> str:
         return AgeRange.parse(self.age_raw)
 
-    @cached_property
-    def description(self) -> str:
-        return Description(self.description_raw).description_raw
-
     @staticmethod
     def get_idx_gda(statistics: list['MortalityStatistic']) -> dict:
         idx_gda = {}
@@ -45,7 +41,7 @@ class MortalityStatistic:
                 continue
             age_range = str(age_range)
 
-            description = statistic.description
+            description = statistic.description_raw
 
             # idx_gda
             idx_gda[gender] = idx_gda.get(gender, {})
@@ -59,31 +55,6 @@ class MortalityStatistic:
         return idx_gda
 
     @staticmethod
-    def get_idx_gad(statistics: list['MortalityStatistic']) -> dict:
-        idx_gad = {}
-        for statistic in statistics:
-            gender = statistic.gender
-            if gender is None:
-                continue
-            gender = str(gender)
-
-            age_range = statistic.age_range
-            if age_range is None:
-                continue
-            age_range = str(age_range)
-
-            description = statistic.description
-
-            # idx_gad
-            idx_gad[gender] = idx_gad.get(gender, {})
-            idx_gad[gender][age_range] = idx_gad[gender].get(age_range, {})
-            idx_gad[gender][age_range][description] = idx_gad[gender][
-                age_range
-            ].get(description, 0)
-            idx_gad[gender][age_range][description] += statistic.deaths
-
-        return idx_gad
-
     @staticmethod
     def write(statistics: list['MortalityStatistic'], file_path: str):
         assert file_path.endswith('.xlsx')
@@ -95,17 +66,33 @@ class MortalityStatistic:
             ws = wb.create_sheet(gender)
             n_descriptions = len(idx_gda[gender].keys())
 
-            for i_row, description in enumerate(idx_gda[gender].keys()):
-                ws.cell(i_row + 2, 1).value = description
+            ws.cell(1, 1).value = 'Row Code'
+            ws.cell(1, 2).value = 'Long'
+            ws.cell(1, 3).value = 'Short'
+            offset_i_col_data = 4
+            i_row = -1
+            for description in idx_gda[gender].keys():
+                _description = Description(description)
+                if not _description.is_top_level:
+                    continue
+                i_row += 1
+
+                ws.cell(i_row + 2, 1).value = _description.row_code
+                ws.cell(i_row + 2, 2).value = _description.details
+                ws.cell(i_row + 2, 3).value = _description.simple
 
                 for i_col, age_range in enumerate(
                     idx_gda[gender][description].keys()
                 ):
                     if i_row == 0:
-                        ws.cell(1, i_col + 2).value = age_range
+                        ws.cell(
+                            1, i_col + offset_i_col_data
+                        ).value = age_range
 
                     deaths = idx_gda[gender][description][age_range]
-                    ws.cell(i_row + 2, i_col + 2).value = deaths
+                    ws.cell(
+                        i_row + 2, i_col + offset_i_col_data
+                    ).value = deaths
 
             log.debug(f'Wrote {n_descriptions} descriptions for {gender}')
 

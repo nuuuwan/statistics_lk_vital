@@ -53,7 +53,7 @@ class Parser2019:
             if cells0 is not None and cells0.strip().startswith('1-'):
                 i_data_row_start = i_row
                 break
-        
+
         for i_row, row in enumerate(sheet.iter_rows(values_only=True)):
             cells = list(row)
 
