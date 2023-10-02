@@ -22,6 +22,7 @@ ROW_CODE_TO_SIMPLE = {
     "1-095": "Accidents / Injuries",
     "1-106": "Disappearance",
 }
+SIMPLE_TO_COLOR = {}
 
 
 class Description:

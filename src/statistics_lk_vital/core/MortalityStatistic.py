@@ -33,9 +33,8 @@ class MortalityStatistic:
         return Description(self.description_raw).simple
 
     @staticmethod
-    def get_idx(statistics: list['MortalityStatistic']) -> dict:
+    def get_idx_gda(statistics: list['MortalityStatistic']) -> dict:
         idx_gda = {}
-        idx_gad = {}
         for statistic in statistics:
             gender = statistic.gender
             if gender is None:
@@ -57,6 +56,26 @@ class MortalityStatistic:
             if age_range not in idx_gda[gender][description]:
                 idx_gda[gender][description][age_range] = 0
             idx_gda[gender][description][age_range] += statistic.deaths
+        return idx_gda
+
+
+    @staticmethod
+    def get_idx_gad(statistics: list['MortalityStatistic']) -> dict:
+        idx_gad = {}
+        for statistic in statistics:
+            gender = statistic.gender
+            if gender is None:
+                continue
+            gender = str(gender)
+
+            description = statistic.description
+
+            age_range = statistic.age_range
+            if age_range is None:
+                continue
+            age_range = str(age_range)
+
+
 
             # idx_gad
             if gender not in idx_gad:
@@ -67,13 +86,15 @@ class MortalityStatistic:
                 idx_gad[gender][age_range][description] = 0
             idx_gad[gender][age_range][description] += statistic.deaths
 
-        return idx_gda, idx_gad
+        return idx_gad
 
     @staticmethod
     def write_list(statistics: list['MortalityStatistic'], file_path: str):
         assert file_path.endswith('.xlsx')
 
-        idx_gda, idx_gad = MortalityStatistic.get_idx(statistics)
+        idx_gda = MortalityStatistic.get_idx_gda(statistics)
+        idx_gad = MortalityStatistic.get_idx_gad(statistics)
+        
         wb = Workbook()
         most_common_description_set = set()
         for gender in idx_gda:
