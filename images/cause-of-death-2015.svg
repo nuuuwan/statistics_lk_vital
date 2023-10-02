@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900">
   <g>
     <text x="800.0" y="89.99999999999999" text-anchor="middle" dominant-baseline="middle" font-size="48" font-family="P22 Johnston" fill="black">Top 10 Causes of Death by Age-Group (Sri Lanka)</text>
-    <text x="1392.0" y="89.99999999999999" text-anchor="start" dominant-baseline="middle" font-size="108" font-family="P22 Johnston" fill="#888">2015</text>
+    <text x="1360.0" y="89.99999999999999" text-anchor="start" dominant-baseline="middle" font-size="108" font-family="P22 Johnston" fill="#888">2015</text>
   </g>
   <g>
     <g>
@@ -255,7 +255,6 @@
       <circle cx="1371.4285714285713" cy="261.0" r="47.53304113982189" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
       <circle cx="1371.4285714285713" cy="315.0" r="39.88771740774345" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
       <circle cx="1371.4285714285713" cy="369.0" r="31.94792638028327" stroke="#888" fill="#888" fill-opacity="0.5"/>
-      <text x="1371.4285714285713" y="369.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Respiratory</text>
       <circle cx="1371.4285714285713" cy="423.0" r="31.56216088926739" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
       <circle cx="1371.4285714285713" cy="477.0" r="26.89312179721796" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
       <circle cx="1371.4285714285713" cy="531.0" r="25.767227247028345" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
@@ -268,10 +267,8 @@
     <g>
       <text x="1447.6190476190477" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">80-84</text>
       <circle cx="1447.6190476190477" cy="261.0" r="48.330425199867626" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
-      <text x="1447.6190476190477" y="261.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Unspecified</text>
       <circle cx="1447.6190476190477" cy="315.0" r="44.016587782334966" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
       <circle cx="1447.6190476190477" cy="369.0" r="33.35850716084279" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
-      <text x="1447.6190476190477" y="369.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Nervous</text>
       <circle cx="1447.6190476190477" cy="423.0" r="31.19519193722007" stroke="#888" fill="#888" fill-opacity="0.5"/>
       <circle cx="1447.6190476190477" cy="477.0" r="24.459967293518606" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
       <circle cx="1447.6190476190477" cy="531.0" r="20.575713839378697" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
@@ -283,17 +280,20 @@
     </g>
     <g>
       <text x="1523.8095238095236" y="179.99999999999997" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">85-120</text>
-      <circle cx="1523.8095238095236" cy="261.0" r="2.8861739379323623" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
-      <circle cx="1523.8095238095236" cy="315.0" r="2.8" stroke="#888" fill="#888" fill-opacity="0.5"/>
-      <circle cx="1523.8095238095236" cy="369.0" r="1.9798989873223332" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
-      <circle cx="1523.8095238095236" cy="423.0" r="1.9798989873223332" stroke="#000" fill="#000" fill-opacity="0.5"/>
-      <circle cx="1523.8095238095236" cy="477.0" r="1.5652475842498528" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
-      <circle cx="1523.8095238095236" cy="531.0" r="1.4" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
-      <circle cx="1523.8095238095236" cy="585.0" r="1.212435565298214" stroke="#080" fill="#080" fill-opacity="0.5"/>
-      <circle cx="1523.8095238095236" cy="639.0" r="1.212435565298214" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
-      <circle cx="1523.8095238095236" cy="693.0" r="1.212435565298214" stroke="#008" fill="#008" fill-opacity="0.5"/>
-      <circle cx="1523.8095238095236" cy="747.0" r="1.212435565298214" stroke="#00f" fill="#00f" fill-opacity="0.5"/>
-      <circle cx="1523.8095238095236" cy="801.0" r="1.212435565298214" stroke="#888" fill="#fff"/>
+      <circle cx="1523.8095238095236" cy="261.0" r="65.49770988362876" stroke="#ccc" fill="#ccc" fill-opacity="0.5"/>
+      <text x="1523.8095238095236" y="261.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Unspecified</text>
+      <circle cx="1523.8095238095236" cy="315.0" r="45.3327696043381" stroke="#f00" fill="#f00" fill-opacity="0.5"/>
+      <circle cx="1523.8095238095236" cy="369.0" r="37.258153470079534" stroke="#f80" fill="#f80" fill-opacity="0.5"/>
+      <text x="1523.8095238095236" y="369.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Nervous</text>
+      <circle cx="1523.8095238095236" cy="423.0" r="33.861482542853906" stroke="#888" fill="#888" fill-opacity="0.5"/>
+      <text x="1523.8095238095236" y="423.0" text-anchor="middle" dominant-baseline="middle" font-size="18.0" font-family="P22 Johnston" fill="black">Respiratory</text>
+      <circle cx="1523.8095238095236" cy="477.0" r="21.745114393812692" stroke="#f08" fill="#f08" fill-opacity="0.5"/>
+      <circle cx="1523.8095238095236" cy="531.0" r="16.50575657157223" stroke="#080" fill="#080" fill-opacity="0.5"/>
+      <circle cx="1523.8095238095236" cy="585.0" r="16.19104690870853" stroke="#08f" fill="#08f" fill-opacity="0.5"/>
+      <circle cx="1523.8095238095236" cy="639.0" r="13.501111065390136" stroke="#fc0" fill="#fc0" fill-opacity="0.5"/>
+      <circle cx="1523.8095238095236" cy="693.0" r="11.85875204226819" stroke="#000" fill="#000" fill-opacity="0.5"/>
+      <circle cx="1523.8095238095236" cy="747.0" r="9.1" stroke="#8f0" fill="#8f0" fill-opacity="0.5"/>
+      <circle cx="1523.8095238095236" cy="801.0" r="7.857480512225276" stroke="#888" fill="#fff"/>
     </g>
   </g>
   <g>

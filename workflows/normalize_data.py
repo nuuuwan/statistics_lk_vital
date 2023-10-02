@@ -10,7 +10,7 @@ dir_images = os.path.abspath('images')
 
 def main():
     for year in range(1998, 2023):
-        # if year != 2019:
+        # if year != 2014:
         #     continue
         file_path = os.path.join(dir_data, f'cause-of-death-{year}.xlsx')
         if not os.path.exists(file_path):

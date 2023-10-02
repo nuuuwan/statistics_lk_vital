@@ -8,7 +8,7 @@ class AgeRange:
 
     @staticmethod
     def parse(x: str):
-        x = str(x).lower().replace(' ', '')
+        x = str(x).lower().replace(' ', '').replace("_", '-')
         for phrase, age_range in [
             ('85+', AgeRange(85, 120)),
             ('total1-4years', AgeRange(1, 4)),

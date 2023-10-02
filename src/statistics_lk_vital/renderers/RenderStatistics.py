@@ -44,7 +44,7 @@ class RenderStatistics:
             if gender is None:
                 continue
             gender = str(gender)
-            if gender != 'total':
+            if gender not in ['male', 'female']:
                 continue
             age = AgeRange.parse(statistic.age_raw)
             if not age:
@@ -58,7 +58,9 @@ class RenderStatistics:
             row_code = description.row_code
             if age not in idx_ad:
                 idx_ad[age] = {}
-            idx_ad[age][row_code] = statistic.deaths
+            if row_code not in idx_ad[age]:
+                idx_ad[age][row_code] = 0
+            idx_ad[age][row_code] += statistic.deaths
 
         idx_ad_sorted = {}
         for age, idx_d in idx_ad.items():
@@ -74,7 +76,7 @@ class RenderStatistics:
             if gender is None:
                 continue
             gender = str(gender)
-            if gender != 'total':
+            if gender not in ['male', 'female']:
                 continue
             age = AgeRange.parse(statistic.age_raw)
             if not age:
@@ -88,7 +90,10 @@ class RenderStatistics:
             row_code = description.row_code
             if row_code not in idx_da:
                 idx_da[row_code] = {}
-            idx_da[row_code][age] = statistic.deaths
+            if age not in idx_da[row_code]:
+                idx_da[row_code][age] = 0
+
+            idx_da[row_code][age] += statistic.deaths
 
         idx_da_sorted = {}
         for row_code, idx_a in idx_da.items():
@@ -259,7 +264,7 @@ class RenderStatistics:
 
     def render_header(self):
         x, y = self.transform(0.5, 0.9)
-        x0, y0 = self.transform(0.87, 0.9)
+        x0, y0 = self.transform(0.85, 0.9)
         return _(
             'g',
             [
