@@ -1,1 +1,5 @@
 openpyxl  # https://openpyxl.readthedocs.io/en/stable/
+pyexcel-xls
+pyexcel-xlsx
+pyexcel-xlsxw
+pyexcel

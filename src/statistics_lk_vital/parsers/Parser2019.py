@@ -18,7 +18,7 @@ def parse_col_to_age(cells):
     non_none_cell = None
     for cell in cells:
         if cell is not None:
-            cell = cell.lower()
+            cell = str(cell).lower()
             non_none_cell = cell.lower()
         col_to_age.append(non_none_cell)
     return col_to_age
@@ -29,7 +29,7 @@ def parse_col_to_gender(cells):
     non_none_cell = None
     for cell in cells:
         if cell is not None:
-            non_none_cell = cell.lower()
+            non_none_cell = str(cell).lower()
         col_to_gender.append(non_none_cell)
     return col_to_gender
 
@@ -39,31 +39,36 @@ class Parser2019:
         self.year = year
         self.file_path = file_path
 
-    def parse(self) -> list[MortalityStatistic]:
+    def parse(self) -> list[MortalityStatistic]:  # noqa
         workbook = load_workbook(filename=self.file_path)
         sheet = workbook.active
         statistics = []
         i_row = 0
         col_to_age = None
         col_to_gender = None
+        offset_i_row_by_year = 0 if self.year in [2019, 2015] else 1
+
         for i_row, row in enumerate(sheet.iter_rows(values_only=True)):
-            if i_row < 3:
+            if i_row < 3 + offset_i_row_by_year:
                 continue
             cells = list(row)
 
-            if i_row == 3:  # Age:
+            if i_row == 3 + offset_i_row_by_year:  # Age:
                 col_to_age = parse_col_to_age(cells)
                 continue
 
-            if i_row == 4:  # Gender
+            if i_row == 4 + offset_i_row_by_year:  # Gender
                 col_to_gender = parse_col_to_gender(cells)
                 continue
 
-            if not sheet.cell(row=i_row + 1, column=1).font.bold:
+            if cells[0] is None:
                 continue
 
             death_description = cells[0].strip()
-            if death_description is None:
+            if (
+                death_description is None
+                or death_description == 'Grand Total'
+            ):
                 continue
 
             for i_cell, cell in enumerate(cells):
@@ -81,13 +86,3 @@ class Parser2019:
 
                 statistics.append(statistic)
         return statistics
-
-
-if __name__ == '__main__':
-    parser = Parser2019(
-        year='2019', file_path='data/cause-of-death-2019.xlsx'
-    )
-    statistics = parser.parse()
-    MortalityStatistic.write_list(
-        statistics, 'data/cause-of-death-2019.norm.xlsx'
-    )

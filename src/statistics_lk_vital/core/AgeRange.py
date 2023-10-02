@@ -8,18 +8,21 @@ class AgeRange:
 
     @staticmethod
     def parse(x: str):
-        x = x.lower().replace(' ', '')
-
+        x = str(x).lower().replace(' ', '')
         for phrase, age_range in [
             ('85+', AgeRange(85, 120)),
             ('total1-4years', AgeRange(1, 4)),
             ('total0-29days', AgeRange(0, 1)),
             ('total1-11months', AgeRange(0, 1)),
+            #
+            ('1-4years', AgeRange(1, 4)),
+            ('0-29days', AgeRange(0, 1)),
+            ('1-11months', AgeRange(0, 1)),
         ]:
             if phrase in x:
                 return age_range
 
-        if '-' not in x or 'total' in x:
+        if '-' not in x or 'total' in x or 'year' in x:
             return None
 
         age_min, age_max = x.split('-')
