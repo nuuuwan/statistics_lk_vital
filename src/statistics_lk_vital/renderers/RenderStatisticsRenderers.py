@@ -16,15 +16,30 @@ PADDING = 25
 BASE_FONT_SIZE = 12
 BASE_FONT_FAMILY = 'TCM_____'
 N_DISPLAY = 10
+N_AGE_GROUPS = 18
 
 
 class RenderStatisticsRenderers:
     @staticmethod
-    def transform(px: float, py: float):
+    def tx(px: float):
+        assert 0 <= px <= 1
+        return px * (WIDTH - PADDING * 2)
+
+    @staticmethod
+    def ty(py: float):
+        assert 0 <= py <= 1
+        return py * (HEIGHT - PADDING * 2)
+
+    @staticmethod
+    def t(px: float, py: float):
         return (
-            px * (WIDTH - PADDING * 2) + PADDING,
-            (1 - py) * (HEIGHT - PADDING * 2) + PADDING,
+            RenderStatisticsRenderers.pad(RenderStatisticsRenderers.tx(px)),
+            RenderStatisticsRenderers.pad(RenderStatisticsRenderers.ty(py)),
         )
+
+    @staticmethod
+    def pad(z: float):
+        return int(z + PADDING)
 
     @staticmethod
     def font_size(p: float):
@@ -32,6 +47,8 @@ class RenderStatisticsRenderers:
 
     @staticmethod
     def get_position(i_rank):
+        if i_rank == N_DISPLAY:
+            return 'All Others'
         if i_rank == 0:
             return 'Top'
         if i_rank == 1:
@@ -39,6 +56,84 @@ class RenderStatisticsRenderers:
         if i_rank == 2:
             return '3rd'
         return f'{i_rank + 1}th'
+
+    def render_col_header(self, x, y, age_group):
+        return _(
+            'text',
+            age_group,
+            dict(
+                x=x,
+                y=y,
+                text_anchor='middle',
+                dominant_baseline='middle',
+                font_size=self.font_size(1.5),
+                font_family=BASE_FONT_FAMILY,
+                fill='#444',
+            ),
+        )
+
+    def render_row_header(self, x, y, i_rank):
+        return _(
+            'text',
+            self.get_position(i_rank),
+            dict(
+                x=x,
+                y=y,
+                text_anchor='middle',
+                dominant_baseline='middle',
+                font_size=self.font_size(1.5),
+                font_family=BASE_FONT_FAMILY,
+                fill='#444',
+            ),
+        )
+
+    def render_connection(self, prev_location, location, color):
+        x1, y1 = prev_location
+        x2, y2 = location
+        return _(
+            'line',
+            None,
+            dict(
+                x1=x1,
+                y1=y1,
+                x2=x2,
+                y2=y2,
+                stroke=color,
+                stroke_width=3,
+                stroke_opacity=0.6,
+                opacity=0.6,
+                fill_opacity=0.6,
+            ),
+        )
+
+    def render_deaths_circle(self, x, y, r, color):
+        return _(
+            'circle',
+            None,
+            dict(
+                cx=x,
+                cy=y,
+                r=r,
+                stroke=color,
+                fill=color,
+                fill_opacity=0.6,
+            ),
+        )
+
+    def render_description_label(self, x, y, description):
+        return _(
+            'text',
+            description,
+            dict(
+                x=x,
+                y=y,
+                text_anchor='middle',
+                dominant_baseline='middle',
+                font_size=self.font_size(1.5),
+                font_family=BASE_FONT_FAMILY,
+                fill='black',
+            ),
+        )
 
     def render_age_group(
         self,
@@ -48,43 +143,21 @@ class RenderStatisticsRenderers:
         idx_d: dict,
         row_code_to_display_age_group: dict,
     ):
-        p_age_group = (i_age_group + 2) / (n_age_group + 2)
+        dx = self.tx(1.0 / (N_AGE_GROUPS + 3))
+        dy = self.ty(1.0 / (N_DISPLAY + 5))
 
-        x, y = self.transform(p_age_group, 0.83)
-        x0, y0 = self.transform(p_age_group - (1 / (n_age_group + 2)), 0.83)
-        dy = self.font_size(4.5)
-        inner = [
-            _(
-                'text',
-                age_group,
-                dict(
-                    x=x,
-                    y=y,
-                    text_anchor='middle',
-                    dominant_baseline='middle',
-                    font_size=self.font_size(1.5),
-                    font_family=BASE_FONT_FAMILY,
-                    fill='#444',
-                ),
-            )
-        ]
+        x_col, y_col_header = self.pad(dx * (i_age_group + 2)), self.pad(
+            dy * 3
+        )
+
+        inner = [self.render_col_header(x_col, y_col_header, age_group)]
         displayed_deaths = 0
         for i_rank in range(N_DISPLAY):
-            if i_age_group == 0:
+            y_row = y_col_header + dy * (1 + i_rank)
+            if i_age_group == 0 or i_age_group == n_age_group - 1:
+                x_col_header = x_col - dx if i_age_group == 0 else x_col + dx
                 inner.append(
-                    _(
-                        'text',
-                        self.get_position(i_rank),
-                        dict(
-                            x=x0,
-                            y=y + dy * (1 + i_rank),
-                            text_anchor='middle',
-                            dominant_baseline='middle',
-                            font_size=self.font_size(1.5),
-                            font_family=BASE_FONT_FAMILY,
-                            fill='#444',
-                        ),
-                    ),
+                    self.render_row_header(x_col_header, y_row, i_rank)
                 )
 
             row_code, deaths = list(idx_d.items())[i_rank]
@@ -93,93 +166,39 @@ class RenderStatisticsRenderers:
             color = ROW_CODE_TO_COLOR.get(row_code, '#cccccc')
 
             prev_location = self.prev_location.get(row_code, None)
-            location = (x, y + dy * (1 + i_rank))
+            location = (x_col, y_row)
             self.prev_location[row_code] = location
 
             if prev_location is not None:
-                x1, y1 = prev_location
-                x2, y2 = location
                 inner.append(
-                    _(
-                        'line',
-                        None,
-                        dict(
-                            x1=x1,
-                            y1=y1,
-                            x2=x2,
-                            y2=y2,
-                            stroke=color,
-                            stroke_width=3,
-                            stroke_opacity=0.6,
-                            opacity=0.6,
-                            fill_opacity=0.6,
-                        ),
-                    ),
+                    self.render_connection(prev_location, location, color)
                 )
 
-            inner.append(
-                _(
-                    'circle',
-                    None,
-                    dict(
-                        cx=x,
-                        cy=y + dy * (1 + i_rank),
-                        r=r,
-                        stroke=color,
-                        fill=color,
-                        fill_opacity=0.6,
-                    ),
-                ),
-            )
+            inner.append(self.render_deaths_circle(x_col, y_row, r, color))
 
             if row_code_to_display_age_group[row_code] == age_group:
                 short = ROW_CODE_TO_SIMPLE.get(row_code, row_code)
                 inner.append(
-                    _(
-                        'text',
-                        short,
-                        dict(
-                            x=x,
-                            y=y + dy * (1 + i_rank),
-                            text_anchor='middle',
-                            dominant_baseline='middle',
-                            font_size=self.font_size(1.5),
-                            font_family=BASE_FONT_FAMILY,
-                            fill='black',
-                        ),
-                    ),
+                    self.render_description_label(x_col, y_row, short)
                 )
         remaining_deaths = sum(idx_d.values()) - displayed_deaths
         r = math.sqrt(remaining_deaths) * 0.7
         inner.append(
-            _(
-                'circle',
-                None,
-                dict(
-                    cx=x,
-                    cy=y + dy * (1 + N_DISPLAY),
-                    r=r,
-                    stroke='#888',
-                    fill='#fff',
-                ),
-            ),
+            self.render_deaths_circle(
+                x_col,
+                y_row,
+                r,
+                '#ccc',
+            )
         )
 
         if i_age_group == 0:
             inner.append(
-                _(
-                    'text',
-                    'All Others',
-                    dict(
-                        x=x0,
-                        y=y + dy * (1 + N_DISPLAY),
-                        text_anchor='middle',
-                        dominant_baseline='middle',
-                        font_size=self.font_size(1),
-                        font_family=BASE_FONT_FAMILY,
-                        fill='#888',
-                    ),
-                ),
+                self.render_row_header(
+                    x_col,
+                    y_row,
+                    N_DISPLAY,
+                )
             )
 
         return _('g', inner)
@@ -208,8 +227,8 @@ class RenderStatisticsRenderers:
         )
 
     def render_header(self):
-        x, y = self.transform(0.5, 0.9)
-        x0, y0 = self.transform(0.97, 0.9)
+        x, y = self.t(0.5, 0.1)
+        x0, y0 = self.t(0.97, 0.1)
         return _(
             'g',
             [
@@ -243,7 +262,7 @@ class RenderStatisticsRenderers:
         )
 
     def render_footer(self):
-        x, y = self.transform(0.5, 0.05)
+        x, y = self.t(0.5, 0.95)
         return _(
             'g',
             [
