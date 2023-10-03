@@ -1,3 +1,5 @@
+from functools import cached_property
+
 from reportlab.graphics import renderPM
 from svglib.svglib import svg2rlg
 from utils import Log, xmlx
@@ -29,23 +31,28 @@ class RenderStatistics(RenderStatisticsRenderers):
     def year(self):
         return self.statistics[0].year
 
-    def get_idx_ad_sorted(self):
-        idx_ad = {}
+    @cached_property
+    def filtered_statistics(self):
+        filtered_statistics = []
         for statistic in self.statistics:
             gender = Gender.parse(statistic.gender_raw)
-            if gender is None:
-                continue
-            gender = str(gender)
-            if gender not in ['male', 'female']:
+            if str(gender) not in ['female']:
                 continue
             age = AgeRange.parse(statistic.age_raw)
             if not age:
                 continue
-            age = str(age)
             description = Description(statistic.description_raw)
             if not description.is_top_level:
                 continue
+            filtered_statistics.append(statistic)
+        log.debug(f'Filtered statistics: {len(filtered_statistics)}')
+        return filtered_statistics
 
+    def get_idx_ad_sorted(self):
+        idx_ad = {}
+        for statistic in self.filtered_statistics:
+            age = str(AgeRange.parse(statistic.age_raw))
+            description = Description(statistic.description_raw)
             row_code = description.row_code
             if age not in idx_ad:
                 idx_ad[age] = {}
@@ -63,21 +70,8 @@ class RenderStatistics(RenderStatisticsRenderers):
     def get_idx_da_sorted(self):
         idx_da = {}
         for statistic in self.statistics:
-            gender = Gender.parse(statistic.gender_raw)
-            if gender is None:
-                continue
-            gender = str(gender)
-            if gender not in ['male', 'female']:
-                continue
-            age = AgeRange.parse(statistic.age_raw)
-            if not age:
-                continue
-            age = str(age)
-
+            age = str(AgeRange.parse(statistic.age_raw))
             description = Description(statistic.description_raw)
-            if not description.is_top_level:
-                continue
-
             row_code = description.row_code
             if row_code not in idx_da:
                 idx_da[row_code] = {}

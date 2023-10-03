@@ -6,58 +6,15 @@ from utils import Log, xmlx
 
 from statistics_lk_vital.core.Description import (ROW_CODE_TO_COLOR,
                                                   ROW_CODE_TO_SIMPLE)
+from statistics_lk_vital.renderers.svg_utils import (BASE_FONT_FAMILY, DX, DY,
+                                                     HEIGHT, N_DISPLAY,
+                                                     PADDING, WIDTH, font_size,
+                                                     get_position, pad, tx)
 
 _ = xmlx._
 
 
 log = Log('RenderStatistics')
-WIDTH, HEIGHT = 1600, 900
-PADDING = 25
-BASE_FONT_SIZE = 12
-BASE_FONT_FAMILY = 'TCM_____'
-N_DISPLAY = 10
-N_AGE_GROUPS = 18
-
-
-def tx(px: float):
-    assert 0 <= px <= 1
-    return px * (WIDTH - PADDING * 2)
-
-
-def ty(py: float):
-    assert 0 <= py <= 1
-    return py * (HEIGHT - PADDING * 2)
-
-
-def t(px: float, py: float):
-    return (
-        pad(tx(px)),
-        pad(ty(py)),
-    )
-
-
-def pad(z: float):
-    return int(z + PADDING)
-
-
-def font_size(p: float):
-    return BASE_FONT_SIZE * p
-
-
-def get_position(i_rank):
-    if i_rank == N_DISPLAY:
-        return 'All Others'
-    if i_rank == 0:
-        return 'Top'
-    if i_rank == 1:
-        return '2nd'
-    if i_rank == 2:
-        return '3rd'
-    return f'{i_rank + 1}th'
-
-
-DX = tx(1.0 / (N_AGE_GROUPS + 3))
-DY = ty(1.0 / (N_DISPLAY + 5))
 
 
 class RenderStatisticsRenderers:
@@ -140,6 +97,45 @@ class RenderStatisticsRenderers:
             ),
         )
 
+    def render_age_group_description(
+        # parent
+        self,
+        i_age_group: int,
+        n_age_group: int,
+        age_group: str,
+        idx_d: dict,
+        row_code_to_display_age_group: dict,
+        # child
+        x_col: int,
+        y_row: int,
+        i_rank: int,
+    ):
+        inner = []
+
+        if i_age_group == 0 or i_age_group == n_age_group - 1:
+            x_col_header = x_col - DX if i_age_group == 0 else x_col + DX
+            inner.append(self.render_row_header(x_col_header, y_row, i_rank))
+
+        row_code, deaths = list(idx_d.items())[i_rank]
+        color = ROW_CODE_TO_COLOR.get(row_code, '#cccccc')
+
+        prev_location = self.prev_location.get(row_code, None)
+        location = (x_col, y_row)
+        self.prev_location[row_code] = location
+
+        if prev_location is not None:
+            inner.append(
+                self.render_connection(prev_location, location, color)
+            )
+
+        inner.append(self.render_deaths_circle(x_col, y_row, deaths, color))
+
+        if row_code_to_display_age_group[row_code] == age_group:
+            short = ROW_CODE_TO_SIMPLE.get(row_code, row_code)
+            inner.append(self.render_description_label(x_col, y_row, short))
+
+        return _('g', inner)
+
     def render_age_group(
         self,
         i_age_group: int,
@@ -154,52 +150,41 @@ class RenderStatisticsRenderers:
         displayed_deaths = 0
         for i_rank in range(N_DISPLAY):
             y_row = y_col_header + DY * (1 + i_rank)
-            if i_age_group == 0 or i_age_group == n_age_group - 1:
-                x_col_header = x_col - DX if i_age_group == 0 else x_col + DX
-                inner.append(
-                    self.render_row_header(x_col_header, y_row, i_rank)
-                )
-
-            row_code, deaths = list(idx_d.items())[i_rank]
+            __, deaths = list(idx_d.items())[i_rank]
             displayed_deaths += deaths
-            color = ROW_CODE_TO_COLOR.get(row_code, '#cccccc')
-
-            prev_location = self.prev_location.get(row_code, None)
-            location = (x_col, y_row)
-            self.prev_location[row_code] = location
-
-            if prev_location is not None:
-                inner.append(
-                    self.render_connection(prev_location, location, color)
-                )
-
             inner.append(
-                self.render_deaths_circle(x_col, y_row, deaths, color)
+                self.render_age_group_description(
+                    i_age_group,
+                    n_age_group,
+                    age_group,
+                    idx_d,
+                    row_code_to_display_age_group,
+                    x_col,
+                    y_row,
+                    i_rank,
+                )
             )
 
-            if row_code_to_display_age_group[row_code] == age_group:
-                short = ROW_CODE_TO_SIMPLE.get(row_code, row_code)
-                inner.append(
-                    self.render_description_label(x_col, y_row, short)
+        # remaining deaths
+        y_row_all_other = y_row + DY
+        if i_age_group == 0:
+            x_row_header = x_col - DX
+            inner.append(
+                self.render_row_header(
+                    x_row_header,
+                    y_row_all_other,
+                    N_DISPLAY,
                 )
+            )
         remaining_deaths = sum(idx_d.values()) - displayed_deaths
         inner.append(
             self.render_deaths_circle(
                 x_col,
-                y_row,
+                y_row_all_other,
                 remaining_deaths,
                 '#ccc',
             )
         )
-
-        if i_age_group == 0:
-            inner.append(
-                self.render_row_header(
-                    x_col,
-                    y_row,
-                    N_DISPLAY,
-                )
-            )
 
         return _('g', inner)
 
@@ -227,8 +212,9 @@ class RenderStatisticsRenderers:
         )
 
     def render_header(self):
-        x, y = t(0.5, 0.1)
-        x0, y0 = t(0.97, 0.1)
+        x_header = pad(tx(0.5))
+        x_header_year = pad(tx(0.95))
+        y_header = DY * 2
         return _(
             'g',
             [
@@ -236,8 +222,8 @@ class RenderStatisticsRenderers:
                     'text',
                     f'Top {N_DISPLAY} Causes of Death by Age-Group (Sri Lanka)',
                     dict(
-                        x=x,
-                        y=y,
+                        x=x_header,
+                        y=y_header,
                         text_anchor='middle',
                         dominant_baseline='middle',
                         font_size=font_size(4),
@@ -249,8 +235,8 @@ class RenderStatisticsRenderers:
                     'text',
                     f'{self.year}',
                     dict(
-                        x=x0,
-                        y=y + font_size(1),
+                        x=x_header_year,
+                        y=y_header + font_size(1),
                         text_anchor='end',
                         dominant_baseline='middle',
                         font_size=font_size(7),
@@ -262,7 +248,8 @@ class RenderStatisticsRenderers:
         )
 
     def render_footer(self):
-        x, y = t(0.5, 0.95)
+        x_footer = pad(tx(0.5))
+        y_footer = HEIGHT - PADDING - DY
         return _(
             'g',
             [
@@ -276,8 +263,8 @@ class RenderStatisticsRenderers:
                         ]
                     ),
                     dict(
-                        x=x,
-                        y=y,
+                        x=x_footer,
+                        y=y_footer,
                         text_anchor='middle',
                         dominant_baseline='middle',
                         font_size=font_size(1),
