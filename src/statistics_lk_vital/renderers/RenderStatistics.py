@@ -16,15 +16,19 @@ _ = xmlx._
 
 log = Log('RenderStatistics')
 WIDTH, HEIGHT = 1600, 900
+PADDING = 25
 BASE_FONT_SIZE = 12
-BASE_FONT_FAMILY = 'P22 Johnston'
+BASE_FONT_FAMILY = 'GIL_____'
 N_DISPLAY = 10
 
 
 class RenderStatistics:
     @staticmethod
     def transform(px: float, py: float):
-        return (px * WIDTH, (1 - py) * HEIGHT)
+        return (
+            px * (WIDTH - PADDING * 2) + PADDING,
+            (1 - py) * (HEIGHT - PADDING * 2) + PADDING,
+        )
 
     @staticmethod
     def font_size(p: float):
@@ -129,9 +133,9 @@ class RenderStatistics:
     ):
         p_age_group = (i_age_group + 2) / (n_age_group + 2)
 
-        x, y = RenderStatistics.transform(p_age_group, 0.8)
+        x, y = RenderStatistics.transform(p_age_group, 0.83)
         x0, y0 = RenderStatistics.transform(
-            p_age_group - (1 / (n_age_group + 2)), 0.8
+            p_age_group - (1 / (n_age_group + 2)), 0.83
         )
         dy = RenderStatistics.font_size(4.5)
         inner = [
@@ -145,7 +149,7 @@ class RenderStatistics:
                     dominant_baseline='middle',
                     font_size=RenderStatistics.font_size(1.5),
                     font_family=BASE_FONT_FAMILY,
-                    fill='black',
+                    fill='#444',
                 ),
             )
         ]
@@ -158,19 +162,19 @@ class RenderStatistics:
                         self.get_position(i_rank),
                         dict(
                             x=x0,
-                            y=y0 + dy * (1.5 + i_rank),
+                            y=y + dy * (1 + i_rank),
                             text_anchor='middle',
                             dominant_baseline='middle',
                             font_size=RenderStatistics.font_size(1.5),
                             font_family=BASE_FONT_FAMILY,
-                            fill='black',
+                            fill='#444',
                         ),
                     ),
                 )
 
             row_code, deaths = list(idx_d.items())[i_rank]
             displayed_deaths += deaths
-            r = math.sqrt(deaths) * 0.7
+            r = math.sqrt(deaths) * 0.5
             color = ROW_CODE_TO_COLOR.get(row_code, '#cccccc')
 
             inner.append(
@@ -179,11 +183,11 @@ class RenderStatistics:
                     None,
                     dict(
                         cx=x,
-                        cy=y + dy * (1.5 + i_rank),
+                        cy=y + dy * (1 + i_rank),
                         r=r,
                         stroke=color,
                         fill=color,
-                        fill_opacity=0.5,
+                        fill_opacity=0.7,
                     ),
                 ),
             )
@@ -196,7 +200,7 @@ class RenderStatistics:
                         short,
                         dict(
                             x=x,
-                            y=y + dy * (1.5 + i_rank),
+                            y=y + dy * (1 + i_rank),
                             text_anchor='middle',
                             dominant_baseline='middle',
                             font_size=RenderStatistics.font_size(1.5),
@@ -213,7 +217,7 @@ class RenderStatistics:
                 None,
                 dict(
                     cx=x,
-                    cy=y + dy * (1.5 + N_DISPLAY),
+                    cy=y + dy * (1 + N_DISPLAY),
                     r=r,
                     stroke='#888',
                     fill='#fff',
@@ -228,7 +232,7 @@ class RenderStatistics:
                     'All Others',
                     dict(
                         x=x0,
-                        y=y0 + dy * (1.5 + N_DISPLAY),
+                        y=y + dy * (1 + N_DISPLAY),
                         text_anchor='middle',
                         dominant_baseline='middle',
                         font_size=RenderStatistics.font_size(1),
@@ -257,6 +261,7 @@ class RenderStatistics:
                     row_code_to_display_age_group,
                 )
             )
+
         return _(
             'g',
             inner,
@@ -264,7 +269,7 @@ class RenderStatistics:
 
     def render_header(self):
         x, y = self.transform(0.5, 0.9)
-        x0, y0 = self.transform(0.85, 0.9)
+        x0, y0 = self.transform(0.97, 0.9)
         return _(
             'g',
             [
@@ -286,10 +291,10 @@ class RenderStatistics:
                     f'{self.year}',
                     dict(
                         x=x0,
-                        y=y0,
-                        text_anchor='start',
+                        y=y + self.font_size(1),
+                        text_anchor='end',
                         dominant_baseline='middle',
-                        font_size=self.font_size(9),
+                        font_size=self.font_size(7),
                         font_family=BASE_FONT_FAMILY,
                         fill='#888',
                     ),
