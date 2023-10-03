@@ -135,6 +135,28 @@ class RenderStatisticsRenderers:
 
         return _('g', inner)
 
+    def render_all_other(self, x_col, y_row, i_age_group, remaining_deaths):
+        inner = []
+        y_row_all_other = y_row + DY
+        if i_age_group == 0:
+            x_row_header = x_col - DX
+            inner.append(
+                self.render_row_header(
+                    x_row_header,
+                    y_row_all_other,
+                    N_DISPLAY,
+                )
+            )
+        inner.append(
+            self.render_deaths_circle(
+                x_col,
+                y_row_all_other,
+                remaining_deaths,
+                '#ccc',
+            )
+        )
+        return _('g', inner)
+
     def render_age_group(
         self,
         i_age_group: int,
@@ -165,24 +187,9 @@ class RenderStatisticsRenderers:
             )
 
         # remaining deaths
-        y_row_all_other = y_row + DY
-        if i_age_group == 0:
-            x_row_header = x_col - DX
-            inner.append(
-                self.render_row_header(
-                    x_row_header,
-                    y_row_all_other,
-                    N_DISPLAY,
-                )
-            )
         remaining_deaths = sum(idx_d.values()) - displayed_deaths
         inner.append(
-            self.render_deaths_circle(
-                x_col,
-                y_row_all_other,
-                remaining_deaths,
-                '#ccc',
-            )
+            self.render_all_other(x_col, y_row, i_age_group, remaining_deaths)
         )
 
         return _('g', inner)
@@ -225,7 +232,6 @@ class RenderStatisticsRenderers:
                         x=x_header,
                         y=y_header,
                         text_anchor='middle',
-                        dominant_baseline='middle',
                         font_size=font_size(3),
                         font_family=BASE_FONT_FAMILY,
                         fill='black',
@@ -238,7 +244,6 @@ class RenderStatisticsRenderers:
                         x=x_header_year,
                         y=y_header + font_size(1),
                         text_anchor='end',
-                        dominant_baseline='middle',
                         font_size=font_size(7),
                         font_family=BASE_FONT_FAMILY_MONOSPACE,
                         fill='#f00',
