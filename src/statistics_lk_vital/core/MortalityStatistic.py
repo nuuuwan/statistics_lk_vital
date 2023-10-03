@@ -55,6 +55,35 @@ class MortalityStatistic:
         return idx_gda
 
     @staticmethod
+    def write_sheet(wb, gender, idx_da):
+        ws = wb.create_sheet(gender)
+        n_descriptions = len(idx_da.keys())
+
+        ws.cell(1, 1).value = 'Row Code'
+        ws.cell(1, 2).value = 'Long'
+        ws.cell(1, 3).value = 'Short'
+        offset_i_col_data = 4
+        i_row = -1
+
+        for description in idx_da.keys():
+            _description = Description(description)
+            if not _description.is_top_level:
+                continue
+            i_row += 1
+
+            ws.cell(i_row + 2, 1).value = _description.row_code
+            ws.cell(i_row + 2, 2).value = _description.details
+            ws.cell(i_row + 2, 3).value = _description.simple
+
+            for i_col, age_range in enumerate(idx_da[description].keys()):
+                if i_row == 0:
+                    ws.cell(1, i_col + offset_i_col_data).value = age_range
+
+                deaths = idx_da[description][age_range]
+                ws.cell(i_row + 2, i_col + offset_i_col_data).value = deaths
+
+        log.debug(f'Wrote {n_descriptions} descriptions for {gender}')
+
     @staticmethod
     def write(statistics: list['MortalityStatistic'], file_path: str):
         assert file_path.endswith('.xlsx')
@@ -62,39 +91,8 @@ class MortalityStatistic:
         idx_gda = MortalityStatistic.get_idx_gda(statistics)
 
         wb = Workbook()
-        for gender in idx_gda:
-            ws = wb.create_sheet(gender)
-            n_descriptions = len(idx_gda[gender].keys())
-
-            ws.cell(1, 1).value = 'Row Code'
-            ws.cell(1, 2).value = 'Long'
-            ws.cell(1, 3).value = 'Short'
-            offset_i_col_data = 4
-            i_row = -1
-            for description in idx_gda[gender].keys():
-                _description = Description(description)
-                if not _description.is_top_level:
-                    continue
-                i_row += 1
-
-                ws.cell(i_row + 2, 1).value = _description.row_code
-                ws.cell(i_row + 2, 2).value = _description.details
-                ws.cell(i_row + 2, 3).value = _description.simple
-
-                for i_col, age_range in enumerate(
-                    idx_gda[gender][description].keys()
-                ):
-                    if i_row == 0:
-                        ws.cell(
-                            1, i_col + offset_i_col_data
-                        ).value = age_range
-
-                    deaths = idx_gda[gender][description][age_range]
-                    ws.cell(
-                        i_row + 2, i_col + offset_i_col_data
-                    ).value = deaths
-
-            log.debug(f'Wrote {n_descriptions} descriptions for {gender}')
+        for gender, idx_da in idx_gda.items():
+            MortalityStatistic.write_sheet(wb, gender, idx_da)
 
         wb.remove(wb['Sheet'])
 
