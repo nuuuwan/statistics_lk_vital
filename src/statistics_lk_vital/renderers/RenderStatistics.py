@@ -23,8 +23,9 @@ N_DISPLAY = 10
 
 
 class RenderStatistics(RenderStatisticsRenderers):
-    def __init__(self, statistics: list[MortalityStatistic]):
+    def __init__(self, statistics: list[MortalityStatistic], gender: str):
         self.statistics = statistics
+        self.gender = gender
         self.prev_location = {}
 
     @property
@@ -36,7 +37,7 @@ class RenderStatistics(RenderStatisticsRenderers):
         filtered_statistics = []
         for statistic in self.statistics:
             gender = Gender.parse(statistic.gender_raw)
-            if str(gender) not in ['female']:
+            if str(gender) not in [self.gender]:
                 continue
             age = AgeRange.parse(statistic.age_raw)
             if not age:
@@ -69,7 +70,7 @@ class RenderStatistics(RenderStatisticsRenderers):
 
     def get_idx_da_sorted(self):
         idx_da = {}
-        for statistic in self.statistics:
+        for statistic in self.filtered_statistics:
             age = str(AgeRange.parse(statistic.age_raw))
             description = Description(statistic.description_raw)
             row_code = description.row_code

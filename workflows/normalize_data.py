@@ -21,9 +21,12 @@ def main():
             statistics,
             os.path.join(dir_data, f'norm.cause-of-death-{year}.xlsx'),
         )
-        RenderStatistics(statistics).write(
-            os.path.join(dir_images, f'cause-of-death-{year}.svg'),
-        )
+        for gender in ['female', 'male']:
+            RenderStatistics(statistics, gender).write(
+                os.path.join(
+                    dir_images, f'cause-of-death-{year}-{gender}.svg'
+                ),
+            )
 
 
 if __name__ == '__main__':

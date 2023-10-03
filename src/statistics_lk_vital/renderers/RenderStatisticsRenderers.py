@@ -6,10 +6,9 @@ from utils import Log, xmlx
 
 from statistics_lk_vital.core.Description import (ROW_CODE_TO_COLOR,
                                                   ROW_CODE_TO_SIMPLE)
-from statistics_lk_vital.renderers.svg_utils import (BASE_FONT_FAMILY, DX, DY,
-                                                     HEIGHT, N_DISPLAY,
-                                                     PADDING, WIDTH, font_size,
-                                                     get_position, pad, tx)
+from statistics_lk_vital.renderers.svg_utils import (
+    BASE_FONT_FAMILY, BASE_FONT_FAMILY_MONOSPACE, DX, DY, HEIGHT, N_DISPLAY,
+    PADDING, WIDTH, font_size, get_position, pad, tx)
 
 _ = xmlx._
 
@@ -220,13 +219,14 @@ class RenderStatisticsRenderers:
             [
                 _(
                     'text',
-                    f'Top {N_DISPLAY} Causes of Death by Age-Group (Sri Lanka)',
+                    f'Top {N_DISPLAY} Causes of Death in {self.gender.title()}s'
+                    + ' by Age-Group (Sri Lanka)',
                     dict(
                         x=x_header,
                         y=y_header,
                         text_anchor='middle',
                         dominant_baseline='middle',
-                        font_size=font_size(4),
+                        font_size=font_size(3),
                         font_family=BASE_FONT_FAMILY,
                         fill='black',
                     ),
@@ -240,8 +240,8 @@ class RenderStatisticsRenderers:
                         text_anchor='end',
                         dominant_baseline='middle',
                         font_size=font_size(7),
-                        font_family=BASE_FONT_FAMILY,
-                        fill='#888',
+                        font_family=BASE_FONT_FAMILY_MONOSPACE,
+                        fill='#f00',
                     ),
                 ),
             ],
