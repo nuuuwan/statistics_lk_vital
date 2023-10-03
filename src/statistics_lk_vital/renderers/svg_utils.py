@@ -17,13 +17,6 @@ def ty(py: float):
     return py * (HEIGHT - PADDING * 2)
 
 
-def t(px: float, py: float):
-    return (
-        pad(tx(px)),
-        pad(ty(py)),
-    )
-
-
 def pad(z: float):
     return int(z + PADDING)
 

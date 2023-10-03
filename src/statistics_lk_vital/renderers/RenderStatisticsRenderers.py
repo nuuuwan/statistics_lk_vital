@@ -60,9 +60,6 @@ class RenderStatisticsRenderers:
                 y2=y2,
                 stroke=color,
                 stroke_width=3,
-                stroke_opacity=0.6,
-                opacity=0.6,
-                fill_opacity=0.6,
             ),
         )
 
@@ -76,8 +73,9 @@ class RenderStatisticsRenderers:
                 cy=y,
                 r=r,
                 stroke=color,
+                stroke_width=5,
                 fill=color,
-                fill_opacity=0.6,
+                fill_opacity=1,
             ),
         )
 
@@ -260,10 +258,10 @@ class RenderStatisticsRenderers:
             [
                 _(
                     'text',
-                    '|'.join(
+                    ' · '.join(
                         [
                             'Data by The Department of'
-                            + ' Census and Statistics, Sri Lanka ',
+                            + ' Census and Statistics, Sri Lanka',
                             'Visualization by @nuuuwan',
                         ]
                     ),
@@ -272,7 +270,7 @@ class RenderStatisticsRenderers:
                         y=y_footer,
                         text_anchor='middle',
                         dominant_baseline='middle',
-                        font_size=font_size(1),
+                        font_size=font_size(2),
                         font_family=BASE_FONT_FAMILY,
                         fill='#888',
                     ),

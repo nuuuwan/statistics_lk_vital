@@ -9,853 +9,853 @@
       <text x="162" y="176" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">1-4</text>
       <g>
         <text x="86.95238095238096" y="230.75" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">Top</text>
-        <circle cx="162" cy="230.75" r="3.570714214271425" stroke="#00f" fill="#00f" fill-opacity="0.6"/>
+        <circle cx="162" cy="230.75" r="3.570714214271425" stroke="#00f" stroke-width="5" fill="#00f" fill-opacity="1"/>
         <text x="162" y="230.75" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="black">Birth Defects</text>
       </g>
       <g>
         <text x="86.95238095238096" y="285.5" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">2nd</text>
-        <circle cx="162" cy="285.5" r="3.3541019662496847" stroke="#000" fill="#000" fill-opacity="0.6"/>
+        <circle cx="162" cy="285.5" r="3.3541019662496847" stroke="#000" stroke-width="5" fill="#000" fill-opacity="1"/>
       </g>
       <g>
         <text x="86.95238095238096" y="340.25" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">3rd</text>
-        <circle cx="162" cy="340.25" r="2.23606797749979" stroke="#080" fill="#080" fill-opacity="0.6"/>
+        <circle cx="162" cy="340.25" r="2.23606797749979" stroke="#080" stroke-width="5" fill="#080" fill-opacity="1"/>
       </g>
       <g>
         <text x="86.95238095238096" y="395.0" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">4th</text>
-        <circle cx="162" cy="395.0" r="2.1213203435596424" stroke="#08f" fill="#08f" fill-opacity="0.6"/>
+        <circle cx="162" cy="395.0" r="2.1213203435596424" stroke="#08f" stroke-width="5" fill="#08f" fill-opacity="1"/>
       </g>
       <g>
         <text x="86.95238095238096" y="449.75" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">5th</text>
-        <circle cx="162" cy="449.75" r="2.1213203435596424" stroke="#f80" fill="#f80" fill-opacity="0.6"/>
+        <circle cx="162" cy="449.75" r="2.1213203435596424" stroke="#f80" stroke-width="5" fill="#f80" fill-opacity="1"/>
       </g>
       <g>
         <text x="86.95238095238096" y="504.5" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">6th</text>
-        <circle cx="162" cy="504.5" r="2.0" stroke="#888" fill="#888" fill-opacity="0.6"/>
+        <circle cx="162" cy="504.5" r="2.0" stroke="#888" stroke-width="5" fill="#888" fill-opacity="1"/>
       </g>
       <g>
         <text x="86.95238095238096" y="559.25" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">7th</text>
-        <circle cx="162" cy="559.25" r="1.5" stroke="#008" fill="#008" fill-opacity="0.6"/>
+        <circle cx="162" cy="559.25" r="1.5" stroke="#008" stroke-width="5" fill="#008" fill-opacity="1"/>
         <text x="162" y="559.25" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="black">Newborn</text>
       </g>
       <g>
         <text x="86.95238095238096" y="614.0" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">8th</text>
-        <circle cx="162" cy="614.0" r="1.224744871391589" stroke="#8f0" fill="#8f0" fill-opacity="0.6"/>
+        <circle cx="162" cy="614.0" r="1.224744871391589" stroke="#8f0" stroke-width="5" fill="#8f0" fill-opacity="1"/>
       </g>
       <g>
         <text x="86.95238095238096" y="668.75" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">9th</text>
-        <circle cx="162" cy="668.75" r="1.224744871391589" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <circle cx="162" cy="668.75" r="1.224744871391589" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
       <g>
         <text x="86.95238095238096" y="723.5" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">10th</text>
-        <circle cx="162" cy="723.5" r="1.0" stroke="#f00" fill="#f00" fill-opacity="0.6"/>
+        <circle cx="162" cy="723.5" r="1.0" stroke="#f00" stroke-width="5" fill="#f00" fill-opacity="1"/>
       </g>
       <g>
         <text x="86.95238095238096" y="778.25" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">All Others</text>
-        <circle cx="162" cy="778.25" r="1.118033988749895" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <circle cx="162" cy="778.25" r="1.118033988749895" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
     </g>
     <g>
       <text x="237" y="176" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">5-9</text>
       <g>
-        <line x1="162" y1="285.5" x2="237" y2="230.75" stroke="#000" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="237" cy="230.75" r="4.031128874149275" stroke="#000" fill="#000" fill-opacity="0.6"/>
+        <line x1="162" y1="285.5" x2="237" y2="230.75" stroke="#000" stroke-width="3"/>
+        <circle cx="237" cy="230.75" r="4.031128874149275" stroke="#000" stroke-width="5" fill="#000" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="162" y1="395.0" x2="237" y2="285.5" stroke="#08f" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="237" cy="285.5" r="2.7838821814150108" stroke="#08f" fill="#08f" fill-opacity="0.6"/>
+        <line x1="162" y1="395.0" x2="237" y2="285.5" stroke="#08f" stroke-width="3"/>
+        <circle cx="237" cy="285.5" r="2.7838821814150108" stroke="#08f" stroke-width="5" fill="#08f" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="162" y1="340.25" x2="237" y2="340.25" stroke="#080" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="237" cy="340.25" r="2.5" stroke="#080" fill="#080" fill-opacity="0.6"/>
+        <line x1="162" y1="340.25" x2="237" y2="340.25" stroke="#080" stroke-width="3"/>
+        <circle cx="237" cy="340.25" r="2.5" stroke="#080" stroke-width="5" fill="#080" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="162" y1="230.75" x2="237" y2="395.0" stroke="#00f" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="237" cy="395.0" r="2.449489742783178" stroke="#00f" fill="#00f" fill-opacity="0.6"/>
+        <line x1="162" y1="230.75" x2="237" y2="395.0" stroke="#00f" stroke-width="3"/>
+        <circle cx="237" cy="395.0" r="2.449489742783178" stroke="#00f" stroke-width="5" fill="#00f" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="162" y1="449.75" x2="237" y2="449.75" stroke="#f80" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="237" cy="449.75" r="2.179449471770337" stroke="#f80" fill="#f80" fill-opacity="0.6"/>
+        <line x1="162" y1="449.75" x2="237" y2="449.75" stroke="#f80" stroke-width="3"/>
+        <circle cx="237" cy="449.75" r="2.179449471770337" stroke="#f80" stroke-width="5" fill="#f80" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="162" y1="504.5" x2="237" y2="504.5" stroke="#888" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="237" cy="504.5" r="2.0615528128088303" stroke="#888" fill="#888" fill-opacity="0.6"/>
+        <line x1="162" y1="504.5" x2="237" y2="504.5" stroke="#888" stroke-width="3"/>
+        <circle cx="237" cy="504.5" r="2.0615528128088303" stroke="#888" stroke-width="5" fill="#888" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="162" y1="723.5" x2="237" y2="559.25" stroke="#f00" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="237" cy="559.25" r="1.5811388300841898" stroke="#f00" fill="#f00" fill-opacity="0.6"/>
+        <line x1="162" y1="723.5" x2="237" y2="559.25" stroke="#f00" stroke-width="3"/>
+        <circle cx="237" cy="559.25" r="1.5811388300841898" stroke="#f00" stroke-width="5" fill="#f00" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="162" y1="668.75" x2="237" y2="614.0" stroke="#ccc" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="237" cy="614.0" r="1.3228756555322954" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <line x1="162" y1="668.75" x2="237" y2="614.0" stroke="#ccc" stroke-width="3"/>
+        <circle cx="237" cy="614.0" r="1.3228756555322954" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="162" y1="614.0" x2="237" y2="668.75" stroke="#8f0" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="237" cy="668.75" r="0.8660254037844386" stroke="#8f0" fill="#8f0" fill-opacity="0.6"/>
+        <line x1="162" y1="614.0" x2="237" y2="668.75" stroke="#8f0" stroke-width="3"/>
+        <circle cx="237" cy="668.75" r="0.8660254037844386" stroke="#8f0" stroke-width="5" fill="#8f0" fill-opacity="1"/>
       </g>
       <g>
-        <circle cx="237" cy="723.5" r="0.8660254037844386" stroke="#fc0" fill="#fc0" fill-opacity="0.6"/>
+        <circle cx="237" cy="723.5" r="0.8660254037844386" stroke="#fc0" stroke-width="5" fill="#fc0" fill-opacity="1"/>
       </g>
       <g>
-        <circle cx="237" cy="778.25" r="1.0" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <circle cx="237" cy="778.25" r="1.0" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
     </g>
     <g>
       <text x="312" y="176" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">10-14</text>
       <g>
-        <line x1="237" y1="230.75" x2="312" y2="230.75" stroke="#000" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="312" cy="230.75" r="4.5" stroke="#000" fill="#000" fill-opacity="0.6"/>
+        <line x1="237" y1="230.75" x2="312" y2="230.75" stroke="#000" stroke-width="3"/>
+        <circle cx="312" cy="230.75" r="4.5" stroke="#000" stroke-width="5" fill="#000" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="237" y1="504.5" x2="312" y2="285.5" stroke="#888" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="312" cy="285.5" r="2.598076211353316" stroke="#888" fill="#888" fill-opacity="0.6"/>
+        <line x1="237" y1="504.5" x2="312" y2="285.5" stroke="#888" stroke-width="3"/>
+        <circle cx="312" cy="285.5" r="2.598076211353316" stroke="#888" stroke-width="5" fill="#888" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="237" y1="395.0" x2="312" y2="340.25" stroke="#00f" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="312" cy="340.25" r="2.5495097567963922" stroke="#00f" fill="#00f" fill-opacity="0.6"/>
+        <line x1="237" y1="395.0" x2="312" y2="340.25" stroke="#00f" stroke-width="3"/>
+        <circle cx="312" cy="340.25" r="2.5495097567963922" stroke="#00f" stroke-width="5" fill="#00f" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="237" y1="449.75" x2="312" y2="395.0" stroke="#f80" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="312" cy="395.0" r="2.449489742783178" stroke="#f80" fill="#f80" fill-opacity="0.6"/>
+        <line x1="237" y1="449.75" x2="312" y2="395.0" stroke="#f80" stroke-width="3"/>
+        <circle cx="312" cy="395.0" r="2.449489742783178" stroke="#f80" stroke-width="5" fill="#f80" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="237" y1="285.5" x2="312" y2="449.75" stroke="#08f" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="312" cy="449.75" r="2.345207879911715" stroke="#08f" fill="#08f" fill-opacity="0.6"/>
+        <line x1="237" y1="285.5" x2="312" y2="449.75" stroke="#08f" stroke-width="3"/>
+        <circle cx="312" cy="449.75" r="2.345207879911715" stroke="#08f" stroke-width="5" fill="#08f" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="237" y1="559.25" x2="312" y2="504.5" stroke="#f00" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="312" cy="504.5" r="2.29128784747792" stroke="#f00" fill="#f00" fill-opacity="0.6"/>
+        <line x1="237" y1="559.25" x2="312" y2="504.5" stroke="#f00" stroke-width="3"/>
+        <circle cx="312" cy="504.5" r="2.29128784747792" stroke="#f00" stroke-width="5" fill="#f00" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="237" y1="340.25" x2="312" y2="559.25" stroke="#080" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="312" cy="559.25" r="1.8027756377319946" stroke="#080" fill="#080" fill-opacity="0.6"/>
+        <line x1="237" y1="340.25" x2="312" y2="559.25" stroke="#080" stroke-width="3"/>
+        <circle cx="312" cy="559.25" r="1.8027756377319946" stroke="#080" stroke-width="5" fill="#080" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="237" y1="614.0" x2="312" y2="614.0" stroke="#ccc" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="312" cy="614.0" r="1.5811388300841898" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <line x1="237" y1="614.0" x2="312" y2="614.0" stroke="#ccc" stroke-width="3"/>
+        <circle cx="312" cy="614.0" r="1.5811388300841898" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
       <g>
-        <circle cx="312" cy="668.75" r="1.4142135623730951" stroke="#f08" fill="#f08" fill-opacity="0.6"/>
+        <circle cx="312" cy="668.75" r="1.4142135623730951" stroke="#f08" stroke-width="5" fill="#f08" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="237" y1="668.75" x2="312" y2="723.5" stroke="#8f0" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="312" cy="723.5" r="0.8660254037844386" stroke="#8f0" fill="#8f0" fill-opacity="0.6"/>
+        <line x1="237" y1="668.75" x2="312" y2="723.5" stroke="#8f0" stroke-width="3"/>
+        <circle cx="312" cy="723.5" r="0.8660254037844386" stroke="#8f0" stroke-width="5" fill="#8f0" fill-opacity="1"/>
       </g>
       <g>
-        <circle cx="312" cy="778.25" r="1.3228756555322954" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <circle cx="312" cy="778.25" r="1.3228756555322954" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
     </g>
     <g>
       <text x="387" y="176" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">15-19</text>
       <g>
-        <line x1="312" y1="230.75" x2="387" y2="230.75" stroke="#000" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="387" cy="230.75" r="9.192388155425117" stroke="#000" fill="#000" fill-opacity="0.6"/>
+        <line x1="312" y1="230.75" x2="387" y2="230.75" stroke="#000" stroke-width="3"/>
+        <circle cx="387" cy="230.75" r="9.192388155425117" stroke="#000" stroke-width="5" fill="#000" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="312" y1="449.75" x2="387" y2="285.5" stroke="#08f" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="387" cy="285.5" r="3.278719262151" stroke="#08f" fill="#08f" fill-opacity="0.6"/>
+        <line x1="312" y1="449.75" x2="387" y2="285.5" stroke="#08f" stroke-width="3"/>
+        <circle cx="387" cy="285.5" r="3.278719262151" stroke="#08f" stroke-width="5" fill="#08f" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="312" y1="340.25" x2="387" y2="340.25" stroke="#00f" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="387" cy="340.25" r="2.8284271247461903" stroke="#00f" fill="#00f" fill-opacity="0.6"/>
+        <line x1="312" y1="340.25" x2="387" y2="340.25" stroke="#00f" stroke-width="3"/>
+        <circle cx="387" cy="340.25" r="2.8284271247461903" stroke="#00f" stroke-width="5" fill="#00f" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="312" y1="504.5" x2="387" y2="395.0" stroke="#f00" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="387" cy="395.0" r="2.7838821814150108" stroke="#f00" fill="#f00" fill-opacity="0.6"/>
+        <line x1="312" y1="504.5" x2="387" y2="395.0" stroke="#f00" stroke-width="3"/>
+        <circle cx="387" cy="395.0" r="2.7838821814150108" stroke="#f00" stroke-width="5" fill="#f00" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="312" y1="285.5" x2="387" y2="449.75" stroke="#888" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="387" cy="449.75" r="2.7838821814150108" stroke="#888" fill="#888" fill-opacity="0.6"/>
+        <line x1="312" y1="285.5" x2="387" y2="449.75" stroke="#888" stroke-width="3"/>
+        <circle cx="387" cy="449.75" r="2.7838821814150108" stroke="#888" stroke-width="5" fill="#888" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="312" y1="395.0" x2="387" y2="504.5" stroke="#f80" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="387" cy="504.5" r="2.449489742783178" stroke="#f80" fill="#f80" fill-opacity="0.6"/>
+        <line x1="312" y1="395.0" x2="387" y2="504.5" stroke="#f80" stroke-width="3"/>
+        <circle cx="387" cy="504.5" r="2.449489742783178" stroke="#f80" stroke-width="5" fill="#f80" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="312" y1="559.25" x2="387" y2="559.25" stroke="#080" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="387" cy="559.25" r="2.3979157616563596" stroke="#080" fill="#080" fill-opacity="0.6"/>
+        <line x1="312" y1="559.25" x2="387" y2="559.25" stroke="#080" stroke-width="3"/>
+        <circle cx="387" cy="559.25" r="2.3979157616563596" stroke="#080" stroke-width="5" fill="#080" fill-opacity="1"/>
       </g>
       <g>
-        <circle cx="387" cy="614.0" r="2.1213203435596424" stroke="#cccccc" fill="#cccccc" fill-opacity="0.6"/>
+        <circle cx="387" cy="614.0" r="2.1213203435596424" stroke="#cccccc" stroke-width="5" fill="#cccccc" fill-opacity="1"/>
         <text x="387" y="614.0" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="black">Disappearance</text>
       </g>
       <g>
-        <line x1="237" y1="723.5" x2="387" y2="668.75" stroke="#fc0" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="387" cy="668.75" r="1.8027756377319946" stroke="#fc0" fill="#fc0" fill-opacity="0.6"/>
+        <line x1="237" y1="723.5" x2="387" y2="668.75" stroke="#fc0" stroke-width="3"/>
+        <circle cx="387" cy="668.75" r="1.8027756377319946" stroke="#fc0" stroke-width="5" fill="#fc0" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="312" y1="614.0" x2="387" y2="723.5" stroke="#ccc" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="387" cy="723.5" r="1.7320508075688772" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <line x1="312" y1="614.0" x2="387" y2="723.5" stroke="#ccc" stroke-width="3"/>
+        <circle cx="387" cy="723.5" r="1.7320508075688772" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
       <g>
-        <circle cx="387" cy="778.25" r="1.9364916731037085" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <circle cx="387" cy="778.25" r="1.9364916731037085" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
     </g>
     <g>
       <text x="462" y="176" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">20-24</text>
       <g>
-        <line x1="387" y1="230.75" x2="462" y2="230.75" stroke="#000" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="462" cy="230.75" r="11.779218989389747" stroke="#000" fill="#000" fill-opacity="0.6"/>
+        <line x1="387" y1="230.75" x2="462" y2="230.75" stroke="#000" stroke-width="3"/>
+        <circle cx="462" cy="230.75" r="11.779218989389747" stroke="#000" stroke-width="5" fill="#000" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="387" y1="395.0" x2="462" y2="285.5" stroke="#f00" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="462" cy="285.5" r="3.605551275463989" stroke="#f00" fill="#f00" fill-opacity="0.6"/>
+        <line x1="387" y1="395.0" x2="462" y2="285.5" stroke="#f00" stroke-width="3"/>
+        <circle cx="462" cy="285.5" r="3.605551275463989" stroke="#f00" stroke-width="5" fill="#f00" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="387" y1="285.5" x2="462" y2="340.25" stroke="#08f" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="462" cy="340.25" r="3.122498999199199" stroke="#08f" fill="#08f" fill-opacity="0.6"/>
+        <line x1="387" y1="285.5" x2="462" y2="340.25" stroke="#08f" stroke-width="3"/>
+        <circle cx="462" cy="340.25" r="3.122498999199199" stroke="#08f" stroke-width="5" fill="#08f" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="387" y1="559.25" x2="462" y2="395.0" stroke="#080" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="462" cy="395.0" r="2.6457513110645907" stroke="#080" fill="#080" fill-opacity="0.6"/>
+        <line x1="387" y1="559.25" x2="462" y2="395.0" stroke="#080" stroke-width="3"/>
+        <circle cx="462" cy="395.0" r="2.6457513110645907" stroke="#080" stroke-width="5" fill="#080" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="387" y1="449.75" x2="462" y2="449.75" stroke="#888" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="462" cy="449.75" r="2.6457513110645907" stroke="#888" fill="#888" fill-opacity="0.6"/>
+        <line x1="387" y1="449.75" x2="462" y2="449.75" stroke="#888" stroke-width="3"/>
+        <circle cx="462" cy="449.75" r="2.6457513110645907" stroke="#888" stroke-width="5" fill="#888" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="387" y1="340.25" x2="462" y2="504.5" stroke="#00f" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="462" cy="504.5" r="2.449489742783178" stroke="#00f" fill="#00f" fill-opacity="0.6"/>
+        <line x1="387" y1="340.25" x2="462" y2="504.5" stroke="#00f" stroke-width="3"/>
+        <circle cx="462" cy="504.5" r="2.449489742783178" stroke="#00f" stroke-width="5" fill="#00f" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="387" y1="723.5" x2="462" y2="559.25" stroke="#ccc" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="462" cy="559.25" r="2.345207879911715" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <line x1="387" y1="723.5" x2="462" y2="559.25" stroke="#ccc" stroke-width="3"/>
+        <circle cx="462" cy="559.25" r="2.345207879911715" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="387" y1="504.5" x2="462" y2="614.0" stroke="#f80" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="462" cy="614.0" r="2.29128784747792" stroke="#f80" fill="#f80" fill-opacity="0.6"/>
+        <line x1="387" y1="504.5" x2="462" y2="614.0" stroke="#f80" stroke-width="3"/>
+        <circle cx="462" cy="614.0" r="2.29128784747792" stroke="#f80" stroke-width="5" fill="#f80" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="387" y1="614.0" x2="462" y2="668.75" stroke="#cccccc" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="462" cy="668.75" r="1.8708286933869707" stroke="#cccccc" fill="#cccccc" fill-opacity="0.6"/>
+        <line x1="387" y1="614.0" x2="462" y2="668.75" stroke="#cccccc" stroke-width="3"/>
+        <circle cx="462" cy="668.75" r="1.8708286933869707" stroke="#cccccc" stroke-width="5" fill="#cccccc" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="312" y1="723.5" x2="462" y2="723.5" stroke="#8f0" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="462" cy="723.5" r="1.6583123951777" stroke="#8f0" fill="#8f0" fill-opacity="0.6"/>
+        <line x1="312" y1="723.5" x2="462" y2="723.5" stroke="#8f0" stroke-width="3"/>
+        <circle cx="462" cy="723.5" r="1.6583123951777" stroke="#8f0" stroke-width="5" fill="#8f0" fill-opacity="1"/>
       </g>
       <g>
-        <circle cx="462" cy="778.25" r="2.23606797749979" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <circle cx="462" cy="778.25" r="2.23606797749979" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
     </g>
     <g>
       <text x="537" y="176" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">25-29</text>
       <g>
-        <line x1="462" y1="230.75" x2="537" y2="230.75" stroke="#000" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="537" cy="230.75" r="11.947803145348521" stroke="#000" fill="#000" fill-opacity="0.6"/>
+        <line x1="462" y1="230.75" x2="537" y2="230.75" stroke="#000" stroke-width="3"/>
+        <circle cx="537" cy="230.75" r="11.947803145348521" stroke="#000" stroke-width="5" fill="#000" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="462" y1="285.5" x2="537" y2="285.5" stroke="#f00" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="537" cy="285.5" r="4.444097208657794" stroke="#f00" fill="#f00" fill-opacity="0.6"/>
+        <line x1="462" y1="285.5" x2="537" y2="285.5" stroke="#f00" stroke-width="3"/>
+        <circle cx="537" cy="285.5" r="4.444097208657794" stroke="#f00" stroke-width="5" fill="#f00" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="462" y1="395.0" x2="537" y2="340.25" stroke="#080" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="537" cy="340.25" r="3.3166247903554" stroke="#080" fill="#080" fill-opacity="0.6"/>
+        <line x1="462" y1="395.0" x2="537" y2="340.25" stroke="#080" stroke-width="3"/>
+        <circle cx="537" cy="340.25" r="3.3166247903554" stroke="#080" stroke-width="5" fill="#080" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="462" y1="340.25" x2="537" y2="395.0" stroke="#08f" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="537" cy="395.0" r="3.2015621187164243" stroke="#08f" fill="#08f" fill-opacity="0.6"/>
+        <line x1="462" y1="340.25" x2="537" y2="395.0" stroke="#08f" stroke-width="3"/>
+        <circle cx="537" cy="395.0" r="3.2015621187164243" stroke="#08f" stroke-width="5" fill="#08f" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="462" y1="449.75" x2="537" y2="449.75" stroke="#888" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="537" cy="449.75" r="3.0" stroke="#888" fill="#888" fill-opacity="0.6"/>
+        <line x1="462" y1="449.75" x2="537" y2="449.75" stroke="#888" stroke-width="3"/>
+        <circle cx="537" cy="449.75" r="3.0" stroke="#888" stroke-width="5" fill="#888" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="462" y1="614.0" x2="537" y2="504.5" stroke="#f80" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="537" cy="504.5" r="2.345207879911715" stroke="#f80" fill="#f80" fill-opacity="0.6"/>
+        <line x1="462" y1="614.0" x2="537" y2="504.5" stroke="#f80" stroke-width="3"/>
+        <circle cx="537" cy="504.5" r="2.345207879911715" stroke="#f80" stroke-width="5" fill="#f80" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="462" y1="559.25" x2="537" y2="559.25" stroke="#ccc" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="537" cy="559.25" r="2.29128784747792" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <line x1="462" y1="559.25" x2="537" y2="559.25" stroke="#ccc" stroke-width="3"/>
+        <circle cx="537" cy="559.25" r="2.29128784747792" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="312" y1="668.75" x2="537" y2="614.0" stroke="#f08" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="537" cy="614.0" r="2.0" stroke="#f08" fill="#f08" fill-opacity="0.6"/>
+        <line x1="312" y1="668.75" x2="537" y2="614.0" stroke="#f08" stroke-width="3"/>
+        <circle cx="537" cy="614.0" r="2.0" stroke="#f08" stroke-width="5" fill="#f08" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="462" y1="723.5" x2="537" y2="668.75" stroke="#8f0" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="537" cy="668.75" r="1.8708286933869707" stroke="#8f0" fill="#8f0" fill-opacity="0.6"/>
+        <line x1="462" y1="723.5" x2="537" y2="668.75" stroke="#8f0" stroke-width="3"/>
+        <circle cx="537" cy="668.75" r="1.8708286933869707" stroke="#8f0" stroke-width="5" fill="#8f0" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="462" y1="504.5" x2="537" y2="723.5" stroke="#00f" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="537" cy="723.5" r="1.7320508075688772" stroke="#00f" fill="#00f" fill-opacity="0.6"/>
+        <line x1="462" y1="504.5" x2="537" y2="723.5" stroke="#00f" stroke-width="3"/>
+        <circle cx="537" cy="723.5" r="1.7320508075688772" stroke="#00f" stroke-width="5" fill="#00f" fill-opacity="1"/>
       </g>
       <g>
-        <circle cx="537" cy="778.25" r="2.6457513110645907" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <circle cx="537" cy="778.25" r="2.6457513110645907" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
     </g>
     <g>
       <text x="612" y="176" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">30-34</text>
       <g>
-        <line x1="537" y1="230.75" x2="612" y2="230.75" stroke="#000" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="612" cy="230.75" r="11.368817000902073" stroke="#000" fill="#000" fill-opacity="0.6"/>
+        <line x1="537" y1="230.75" x2="612" y2="230.75" stroke="#000" stroke-width="3"/>
+        <circle cx="612" cy="230.75" r="11.368817000902073" stroke="#000" stroke-width="5" fill="#000" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="537" y1="285.5" x2="612" y2="285.5" stroke="#f00" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="612" cy="285.5" r="5.979130371550699" stroke="#f00" fill="#f00" fill-opacity="0.6"/>
+        <line x1="537" y1="285.5" x2="612" y2="285.5" stroke="#f00" stroke-width="3"/>
+        <circle cx="612" cy="285.5" r="5.979130371550699" stroke="#f00" stroke-width="5" fill="#f00" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="537" y1="395.0" x2="612" y2="340.25" stroke="#08f" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="612" cy="340.25" r="4.301162633521313" stroke="#08f" fill="#08f" fill-opacity="0.6"/>
+        <line x1="537" y1="395.0" x2="612" y2="340.25" stroke="#08f" stroke-width="3"/>
+        <circle cx="612" cy="340.25" r="4.301162633521313" stroke="#08f" stroke-width="5" fill="#08f" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="537" y1="449.75" x2="612" y2="395.0" stroke="#888" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="612" cy="395.0" r="3.774917217635375" stroke="#888" fill="#888" fill-opacity="0.6"/>
+        <line x1="537" y1="449.75" x2="612" y2="395.0" stroke="#888" stroke-width="3"/>
+        <circle cx="612" cy="395.0" r="3.774917217635375" stroke="#888" stroke-width="5" fill="#888" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="537" y1="340.25" x2="612" y2="449.75" stroke="#080" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="612" cy="449.75" r="3.7416573867739413" stroke="#080" fill="#080" fill-opacity="0.6"/>
+        <line x1="537" y1="340.25" x2="612" y2="449.75" stroke="#080" stroke-width="3"/>
+        <circle cx="612" cy="449.75" r="3.7416573867739413" stroke="#080" stroke-width="5" fill="#080" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="537" y1="559.25" x2="612" y2="504.5" stroke="#ccc" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="612" cy="504.5" r="3.0" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <line x1="537" y1="559.25" x2="612" y2="504.5" stroke="#ccc" stroke-width="3"/>
+        <circle cx="612" cy="504.5" r="3.0" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="537" y1="668.75" x2="612" y2="559.25" stroke="#8f0" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="612" cy="559.25" r="2.7838821814150108" stroke="#8f0" fill="#8f0" fill-opacity="0.6"/>
+        <line x1="537" y1="668.75" x2="612" y2="559.25" stroke="#8f0" stroke-width="3"/>
+        <circle cx="612" cy="559.25" r="2.7838821814150108" stroke="#8f0" stroke-width="5" fill="#8f0" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="387" y1="668.75" x2="612" y2="614.0" stroke="#fc0" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="612" cy="614.0" r="2.449489742783178" stroke="#fc0" fill="#fc0" fill-opacity="0.6"/>
+        <line x1="387" y1="668.75" x2="612" y2="614.0" stroke="#fc0" stroke-width="3"/>
+        <circle cx="612" cy="614.0" r="2.449489742783178" stroke="#fc0" stroke-width="5" fill="#fc0" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="537" y1="504.5" x2="612" y2="668.75" stroke="#f80" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="612" cy="668.75" r="1.8027756377319946" stroke="#f80" fill="#f80" fill-opacity="0.6"/>
+        <line x1="537" y1="504.5" x2="612" y2="668.75" stroke="#f80" stroke-width="3"/>
+        <circle cx="612" cy="668.75" r="1.8027756377319946" stroke="#f80" stroke-width="5" fill="#f80" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="537" y1="723.5" x2="612" y2="723.5" stroke="#00f" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="612" cy="723.5" r="1.8027756377319946" stroke="#00f" fill="#00f" fill-opacity="0.6"/>
+        <line x1="537" y1="723.5" x2="612" y2="723.5" stroke="#00f" stroke-width="3"/>
+        <circle cx="612" cy="723.5" r="1.8027756377319946" stroke="#00f" stroke-width="5" fill="#00f" fill-opacity="1"/>
       </g>
       <g>
-        <circle cx="612" cy="778.25" r="2.692582403567252" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <circle cx="612" cy="778.25" r="2.692582403567252" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
     </g>
     <g>
       <text x="687" y="176" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">35-39</text>
       <g>
-        <line x1="612" y1="230.75" x2="687" y2="230.75" stroke="#000" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="687" cy="230.75" r="12.328828005937952" stroke="#000" fill="#000" fill-opacity="0.6"/>
+        <line x1="612" y1="230.75" x2="687" y2="230.75" stroke="#000" stroke-width="3"/>
+        <circle cx="687" cy="230.75" r="12.328828005937952" stroke="#000" stroke-width="5" fill="#000" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="612" y1="285.5" x2="687" y2="285.5" stroke="#f00" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="687" cy="285.5" r="8.06225774829855" stroke="#f00" fill="#f00" fill-opacity="0.6"/>
+        <line x1="612" y1="285.5" x2="687" y2="285.5" stroke="#f00" stroke-width="3"/>
+        <circle cx="687" cy="285.5" r="8.06225774829855" stroke="#f00" stroke-width="5" fill="#f00" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="612" y1="340.25" x2="687" y2="340.25" stroke="#08f" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="687" cy="340.25" r="5.5901699437494745" stroke="#08f" fill="#08f" fill-opacity="0.6"/>
+        <line x1="612" y1="340.25" x2="687" y2="340.25" stroke="#08f" stroke-width="3"/>
+        <circle cx="687" cy="340.25" r="5.5901699437494745" stroke="#08f" stroke-width="5" fill="#08f" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="612" y1="449.75" x2="687" y2="395.0" stroke="#080" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="687" cy="395.0" r="4.663689526544408" stroke="#080" fill="#080" fill-opacity="0.6"/>
+        <line x1="612" y1="449.75" x2="687" y2="395.0" stroke="#080" stroke-width="3"/>
+        <circle cx="687" cy="395.0" r="4.663689526544408" stroke="#080" stroke-width="5" fill="#080" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="612" y1="395.0" x2="687" y2="449.75" stroke="#888" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="687" cy="449.75" r="4.183300132670378" stroke="#888" fill="#888" fill-opacity="0.6"/>
+        <line x1="612" y1="395.0" x2="687" y2="449.75" stroke="#888" stroke-width="3"/>
+        <circle cx="687" cy="449.75" r="4.183300132670378" stroke="#888" stroke-width="5" fill="#888" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="612" y1="559.25" x2="687" y2="504.5" stroke="#8f0" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="687" cy="504.5" r="4.031128874149275" stroke="#8f0" fill="#8f0" fill-opacity="0.6"/>
+        <line x1="612" y1="559.25" x2="687" y2="504.5" stroke="#8f0" stroke-width="3"/>
+        <circle cx="687" cy="504.5" r="4.031128874149275" stroke="#8f0" stroke-width="5" fill="#8f0" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="612" y1="614.0" x2="687" y2="559.25" stroke="#fc0" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="687" cy="559.25" r="3.391164991562634" stroke="#fc0" fill="#fc0" fill-opacity="0.6"/>
+        <line x1="612" y1="614.0" x2="687" y2="559.25" stroke="#fc0" stroke-width="3"/>
+        <circle cx="687" cy="559.25" r="3.391164991562634" stroke="#fc0" stroke-width="5" fill="#fc0" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="612" y1="504.5" x2="687" y2="614.0" stroke="#ccc" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="687" cy="614.0" r="3.2015621187164243" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <line x1="612" y1="504.5" x2="687" y2="614.0" stroke="#ccc" stroke-width="3"/>
+        <circle cx="687" cy="614.0" r="3.2015621187164243" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="612" y1="668.75" x2="687" y2="668.75" stroke="#f80" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="687" cy="668.75" r="3.122498999199199" stroke="#f80" fill="#f80" fill-opacity="0.6"/>
+        <line x1="612" y1="668.75" x2="687" y2="668.75" stroke="#f80" stroke-width="3"/>
+        <circle cx="687" cy="668.75" r="3.122498999199199" stroke="#f80" stroke-width="5" fill="#f80" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="537" y1="614.0" x2="687" y2="723.5" stroke="#f08" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="687" cy="723.5" r="2.692582403567252" stroke="#f08" fill="#f08" fill-opacity="0.6"/>
+        <line x1="537" y1="614.0" x2="687" y2="723.5" stroke="#f08" stroke-width="3"/>
+        <circle cx="687" cy="723.5" r="2.692582403567252" stroke="#f08" stroke-width="5" fill="#f08" fill-opacity="1"/>
       </g>
       <g>
-        <circle cx="687" cy="778.25" r="3.0413812651491097" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <circle cx="687" cy="778.25" r="3.0413812651491097" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
     </g>
     <g>
       <text x="762" y="176" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">40-44</text>
       <g>
-        <line x1="687" y1="230.75" x2="762" y2="230.75" stroke="#000" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="762" cy="230.75" r="11.979148550710939" stroke="#000" fill="#000" fill-opacity="0.6"/>
+        <line x1="687" y1="230.75" x2="762" y2="230.75" stroke="#000" stroke-width="3"/>
+        <circle cx="762" cy="230.75" r="11.979148550710939" stroke="#000" stroke-width="5" fill="#000" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="687" y1="285.5" x2="762" y2="285.5" stroke="#f00" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="762" cy="285.5" r="10.793516572461451" stroke="#f00" fill="#f00" fill-opacity="0.6"/>
+        <line x1="687" y1="285.5" x2="762" y2="285.5" stroke="#f00" stroke-width="3"/>
+        <circle cx="762" cy="285.5" r="10.793516572461451" stroke="#f00" stroke-width="5" fill="#f00" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="687" y1="340.25" x2="762" y2="340.25" stroke="#08f" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="762" cy="340.25" r="6.87386354243376" stroke="#08f" fill="#08f" fill-opacity="0.6"/>
+        <line x1="687" y1="340.25" x2="762" y2="340.25" stroke="#08f" stroke-width="3"/>
+        <circle cx="762" cy="340.25" r="6.87386354243376" stroke="#08f" stroke-width="5" fill="#08f" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="687" y1="504.5" x2="762" y2="395.0" stroke="#8f0" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="762" cy="395.0" r="5.937171043518958" stroke="#8f0" fill="#8f0" fill-opacity="0.6"/>
+        <line x1="687" y1="504.5" x2="762" y2="395.0" stroke="#8f0" stroke-width="3"/>
+        <circle cx="762" cy="395.0" r="5.937171043518958" stroke="#8f0" stroke-width="5" fill="#8f0" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="687" y1="395.0" x2="762" y2="449.75" stroke="#080" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="762" cy="449.75" r="5.656854249492381" stroke="#080" fill="#080" fill-opacity="0.6"/>
+        <line x1="687" y1="395.0" x2="762" y2="449.75" stroke="#080" stroke-width="3"/>
+        <circle cx="762" cy="449.75" r="5.656854249492381" stroke="#080" stroke-width="5" fill="#080" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="687" y1="449.75" x2="762" y2="504.5" stroke="#888" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="762" cy="504.5" r="5.07444578254611" stroke="#888" fill="#888" fill-opacity="0.6"/>
+        <line x1="687" y1="449.75" x2="762" y2="504.5" stroke="#888" stroke-width="3"/>
+        <circle cx="762" cy="504.5" r="5.07444578254611" stroke="#888" stroke-width="5" fill="#888" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="687" y1="559.25" x2="762" y2="559.25" stroke="#fc0" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="762" cy="559.25" r="4.58257569495584" stroke="#fc0" fill="#fc0" fill-opacity="0.6"/>
+        <line x1="687" y1="559.25" x2="762" y2="559.25" stroke="#fc0" stroke-width="3"/>
+        <circle cx="762" cy="559.25" r="4.58257569495584" stroke="#fc0" stroke-width="5" fill="#fc0" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="687" y1="723.5" x2="762" y2="614.0" stroke="#f08" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="762" cy="614.0" r="4.444097208657794" stroke="#f08" fill="#f08" fill-opacity="0.6"/>
+        <line x1="687" y1="723.5" x2="762" y2="614.0" stroke="#f08" stroke-width="3"/>
+        <circle cx="762" cy="614.0" r="4.444097208657794" stroke="#f08" stroke-width="5" fill="#f08" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="687" y1="614.0" x2="762" y2="668.75" stroke="#ccc" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="762" cy="668.75" r="3.7080992435478315" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <line x1="687" y1="614.0" x2="762" y2="668.75" stroke="#ccc" stroke-width="3"/>
+        <circle cx="762" cy="668.75" r="3.7080992435478315" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="687" y1="668.75" x2="762" y2="723.5" stroke="#f80" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="762" cy="723.5" r="3.24037034920393" stroke="#f80" fill="#f80" fill-opacity="0.6"/>
+        <line x1="687" y1="668.75" x2="762" y2="723.5" stroke="#f80" stroke-width="3"/>
+        <circle cx="762" cy="723.5" r="3.24037034920393" stroke="#f80" stroke-width="5" fill="#f80" fill-opacity="1"/>
       </g>
       <g>
-        <circle cx="762" cy="778.25" r="2.7386127875258306" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <circle cx="762" cy="778.25" r="2.7386127875258306" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
     </g>
     <g>
       <text x="837" y="176" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">45-49</text>
       <g>
-        <line x1="762" y1="285.5" x2="837" y2="230.75" stroke="#f00" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="837" cy="230.75" r="13.683932183404009" stroke="#f00" fill="#f00" fill-opacity="0.6"/>
+        <line x1="762" y1="285.5" x2="837" y2="230.75" stroke="#f00" stroke-width="3"/>
+        <circle cx="837" cy="230.75" r="13.683932183404009" stroke="#f00" stroke-width="5" fill="#f00" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="762" y1="230.75" x2="837" y2="285.5" stroke="#000" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="837" cy="285.5" r="12.84523257866513" stroke="#000" fill="#000" fill-opacity="0.6"/>
+        <line x1="762" y1="230.75" x2="837" y2="285.5" stroke="#000" stroke-width="3"/>
+        <circle cx="837" cy="285.5" r="12.84523257866513" stroke="#000" stroke-width="5" fill="#000" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="762" y1="340.25" x2="837" y2="340.25" stroke="#08f" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="837" cy="340.25" r="8.831760866327848" stroke="#08f" fill="#08f" fill-opacity="0.6"/>
+        <line x1="762" y1="340.25" x2="837" y2="340.25" stroke="#08f" stroke-width="3"/>
+        <circle cx="837" cy="340.25" r="8.831760866327848" stroke="#08f" stroke-width="5" fill="#08f" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="762" y1="395.0" x2="837" y2="395.0" stroke="#8f0" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="837" cy="395.0" r="7.582875444051551" stroke="#8f0" fill="#8f0" fill-opacity="0.6"/>
+        <line x1="762" y1="395.0" x2="837" y2="395.0" stroke="#8f0" stroke-width="3"/>
+        <circle cx="837" cy="395.0" r="7.582875444051551" stroke="#8f0" stroke-width="5" fill="#8f0" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="762" y1="449.75" x2="837" y2="449.75" stroke="#080" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="837" cy="449.75" r="6.910137480542627" stroke="#080" fill="#080" fill-opacity="0.6"/>
+        <line x1="762" y1="449.75" x2="837" y2="449.75" stroke="#080" stroke-width="3"/>
+        <circle cx="837" cy="449.75" r="6.910137480542627" stroke="#080" stroke-width="5" fill="#080" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="762" y1="504.5" x2="837" y2="504.5" stroke="#888" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="837" cy="504.5" r="6.837397165588672" stroke="#888" fill="#888" fill-opacity="0.6"/>
+        <line x1="762" y1="504.5" x2="837" y2="504.5" stroke="#888" stroke-width="3"/>
+        <circle cx="837" cy="504.5" r="6.837397165588672" stroke="#888" stroke-width="5" fill="#888" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="762" y1="614.0" x2="837" y2="559.25" stroke="#f08" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="837" cy="559.25" r="6.519202405202649" stroke="#f08" fill="#f08" fill-opacity="0.6"/>
+        <line x1="762" y1="614.0" x2="837" y2="559.25" stroke="#f08" stroke-width="3"/>
+        <circle cx="837" cy="559.25" r="6.519202405202649" stroke="#f08" stroke-width="5" fill="#f08" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="762" y1="559.25" x2="837" y2="614.0" stroke="#fc0" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="837" cy="614.0" r="5.873670062235365" stroke="#fc0" fill="#fc0" fill-opacity="0.6"/>
+        <line x1="762" y1="559.25" x2="837" y2="614.0" stroke="#fc0" stroke-width="3"/>
+        <circle cx="837" cy="614.0" r="5.873670062235365" stroke="#fc0" stroke-width="5" fill="#fc0" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="762" y1="723.5" x2="837" y2="668.75" stroke="#f80" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="837" cy="668.75" r="4.47213595499958" stroke="#f80" fill="#f80" fill-opacity="0.6"/>
+        <line x1="762" y1="723.5" x2="837" y2="668.75" stroke="#f80" stroke-width="3"/>
+        <circle cx="837" cy="668.75" r="4.47213595499958" stroke="#f80" stroke-width="5" fill="#f80" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="762" y1="668.75" x2="837" y2="723.5" stroke="#ccc" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="837" cy="723.5" r="4.06201920231798" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <line x1="762" y1="668.75" x2="837" y2="723.5" stroke="#ccc" stroke-width="3"/>
+        <circle cx="837" cy="723.5" r="4.06201920231798" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
       <g>
-        <circle cx="837" cy="778.25" r="2.8722813232690143" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <circle cx="837" cy="778.25" r="2.8722813232690143" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
     </g>
     <g>
       <text x="912" y="176" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">50-54</text>
       <g>
-        <line x1="837" y1="230.75" x2="912" y2="230.75" stroke="#f00" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="912" cy="230.75" r="17.881554742247666" stroke="#f00" fill="#f00" fill-opacity="0.6"/>
+        <line x1="837" y1="230.75" x2="912" y2="230.75" stroke="#f00" stroke-width="3"/>
+        <circle cx="912" cy="230.75" r="17.881554742247666" stroke="#f00" stroke-width="5" fill="#f00" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="837" y1="285.5" x2="912" y2="285.5" stroke="#000" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="912" cy="285.5" r="12.639224659764539" stroke="#000" fill="#000" fill-opacity="0.6"/>
+        <line x1="837" y1="285.5" x2="912" y2="285.5" stroke="#000" stroke-width="3"/>
+        <circle cx="912" cy="285.5" r="12.639224659764539" stroke="#000" stroke-width="5" fill="#000" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="837" y1="340.25" x2="912" y2="340.25" stroke="#08f" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="912" cy="340.25" r="12.579745625409124" stroke="#08f" fill="#08f" fill-opacity="0.6"/>
+        <line x1="837" y1="340.25" x2="912" y2="340.25" stroke="#08f" stroke-width="3"/>
+        <circle cx="912" cy="340.25" r="12.579745625409124" stroke="#08f" stroke-width="5" fill="#08f" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="837" y1="395.0" x2="912" y2="395.0" stroke="#8f0" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="912" cy="395.0" r="9.367496997597597" stroke="#8f0" fill="#8f0" fill-opacity="0.6"/>
+        <line x1="837" y1="395.0" x2="912" y2="395.0" stroke="#8f0" stroke-width="3"/>
+        <circle cx="912" cy="395.0" r="9.367496997597597" stroke="#8f0" stroke-width="5" fill="#8f0" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="837" y1="559.25" x2="912" y2="449.75" stroke="#f08" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="912" cy="449.75" r="9.041570660012562" stroke="#f08" fill="#f08" fill-opacity="0.6"/>
+        <line x1="837" y1="559.25" x2="912" y2="449.75" stroke="#f08" stroke-width="3"/>
+        <circle cx="912" cy="449.75" r="9.041570660012562" stroke="#f08" stroke-width="5" fill="#f08" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="837" y1="504.5" x2="912" y2="504.5" stroke="#888" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="912" cy="504.5" r="8.74642784226795" stroke="#888" fill="#888" fill-opacity="0.6"/>
+        <line x1="837" y1="504.5" x2="912" y2="504.5" stroke="#888" stroke-width="3"/>
+        <circle cx="912" cy="504.5" r="8.74642784226795" stroke="#888" stroke-width="5" fill="#888" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="837" y1="449.75" x2="912" y2="559.25" stroke="#080" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="912" cy="559.25" r="8.455767262643882" stroke="#080" fill="#080" fill-opacity="0.6"/>
+        <line x1="837" y1="449.75" x2="912" y2="559.25" stroke="#080" stroke-width="3"/>
+        <circle cx="912" cy="559.25" r="8.455767262643882" stroke="#080" stroke-width="5" fill="#080" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="837" y1="614.0" x2="912" y2="614.0" stroke="#fc0" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="912" cy="614.0" r="7.905694150420948" stroke="#fc0" fill="#fc0" fill-opacity="0.6"/>
+        <line x1="837" y1="614.0" x2="912" y2="614.0" stroke="#fc0" stroke-width="3"/>
+        <circle cx="912" cy="614.0" r="7.905694150420948" stroke="#fc0" stroke-width="5" fill="#fc0" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="837" y1="723.5" x2="912" y2="668.75" stroke="#ccc" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="912" cy="668.75" r="5.656854249492381" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <line x1="837" y1="723.5" x2="912" y2="668.75" stroke="#ccc" stroke-width="3"/>
+        <circle cx="912" cy="668.75" r="5.656854249492381" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="837" y1="668.75" x2="912" y2="723.5" stroke="#f80" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="912" cy="723.5" r="5.612486080160912" stroke="#f80" fill="#f80" fill-opacity="0.6"/>
+        <line x1="837" y1="668.75" x2="912" y2="723.5" stroke="#f80" stroke-width="3"/>
+        <circle cx="912" cy="723.5" r="5.612486080160912" stroke="#f80" stroke-width="5" fill="#f80" fill-opacity="1"/>
       </g>
       <g>
-        <circle cx="912" cy="778.25" r="2.9154759474226504" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <circle cx="912" cy="778.25" r="2.9154759474226504" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
     </g>
     <g>
       <text x="987" y="176" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">55-59</text>
       <g>
-        <line x1="912" y1="230.75" x2="987" y2="230.75" stroke="#f00" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="987" cy="230.75" r="22.299103120977758" stroke="#f00" fill="#f00" fill-opacity="0.6"/>
+        <line x1="912" y1="230.75" x2="987" y2="230.75" stroke="#f00" stroke-width="3"/>
+        <circle cx="987" cy="230.75" r="22.299103120977758" stroke="#f00" stroke-width="5" fill="#f00" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="912" y1="340.25" x2="987" y2="285.5" stroke="#08f" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="987" cy="285.5" r="16.263455967290593" stroke="#08f" fill="#08f" fill-opacity="0.6"/>
+        <line x1="912" y1="340.25" x2="987" y2="285.5" stroke="#08f" stroke-width="3"/>
+        <circle cx="987" cy="285.5" r="16.263455967290593" stroke="#08f" stroke-width="5" fill="#08f" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="912" y1="285.5" x2="987" y2="340.25" stroke="#000" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="987" cy="340.25" r="13.0862523283024" stroke="#000" fill="#000" fill-opacity="0.6"/>
+        <line x1="912" y1="285.5" x2="987" y2="340.25" stroke="#000" stroke-width="3"/>
+        <circle cx="987" cy="340.25" r="13.0862523283024" stroke="#000" stroke-width="5" fill="#000" fill-opacity="1"/>
         <text x="987" y="340.25" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="black">Accidents / Injuries</text>
       </g>
       <g>
-        <line x1="912" y1="449.75" x2="987" y2="395.0" stroke="#f08" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="987" cy="395.0" r="11.510864433221338" stroke="#f08" fill="#f08" fill-opacity="0.6"/>
+        <line x1="912" y1="449.75" x2="987" y2="395.0" stroke="#f08" stroke-width="3"/>
+        <circle cx="987" cy="395.0" r="11.510864433221338" stroke="#f08" stroke-width="5" fill="#f08" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="912" y1="504.5" x2="987" y2="449.75" stroke="#888" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="987" cy="449.75" r="11.291589790636214" stroke="#888" fill="#888" fill-opacity="0.6"/>
+        <line x1="912" y1="504.5" x2="987" y2="449.75" stroke="#888" stroke-width="3"/>
+        <circle cx="987" cy="449.75" r="11.291589790636214" stroke="#888" stroke-width="5" fill="#888" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="912" y1="559.25" x2="987" y2="504.5" stroke="#080" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="987" cy="504.5" r="9.9498743710662" stroke="#080" fill="#080" fill-opacity="0.6"/>
+        <line x1="912" y1="559.25" x2="987" y2="504.5" stroke="#080" stroke-width="3"/>
+        <circle cx="987" cy="504.5" r="9.9498743710662" stroke="#080" stroke-width="5" fill="#080" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="912" y1="614.0" x2="987" y2="559.25" stroke="#fc0" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="987" cy="559.25" r="9.669539802906858" stroke="#fc0" fill="#fc0" fill-opacity="0.6"/>
+        <line x1="912" y1="614.0" x2="987" y2="559.25" stroke="#fc0" stroke-width="3"/>
+        <circle cx="987" cy="559.25" r="9.669539802906858" stroke="#fc0" stroke-width="5" fill="#fc0" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="912" y1="395.0" x2="987" y2="614.0" stroke="#8f0" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="987" cy="614.0" r="9.630680142129112" stroke="#8f0" fill="#8f0" fill-opacity="0.6"/>
+        <line x1="912" y1="395.0" x2="987" y2="614.0" stroke="#8f0" stroke-width="3"/>
+        <circle cx="987" cy="614.0" r="9.630680142129112" stroke="#8f0" stroke-width="5" fill="#8f0" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="912" y1="723.5" x2="987" y2="668.75" stroke="#f80" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="987" cy="668.75" r="7.54983443527075" stroke="#f80" fill="#f80" fill-opacity="0.6"/>
+        <line x1="912" y1="723.5" x2="987" y2="668.75" stroke="#f80" stroke-width="3"/>
+        <circle cx="987" cy="668.75" r="7.54983443527075" stroke="#f80" stroke-width="5" fill="#f80" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="912" y1="668.75" x2="987" y2="723.5" stroke="#ccc" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="987" cy="723.5" r="7.088723439378913" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <line x1="912" y1="668.75" x2="987" y2="723.5" stroke="#ccc" stroke-width="3"/>
+        <circle cx="987" cy="723.5" r="7.088723439378913" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
       <g>
-        <circle cx="987" cy="778.25" r="4.415880433163924" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <circle cx="987" cy="778.25" r="4.415880433163924" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
     </g>
     <g>
       <text x="1062" y="176" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">60-64</text>
       <g>
-        <line x1="987" y1="230.75" x2="1062" y2="230.75" stroke="#f00" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1062" cy="230.75" r="25.666125535421198" stroke="#f00" fill="#f00" fill-opacity="0.6"/>
+        <line x1="987" y1="230.75" x2="1062" y2="230.75" stroke="#f00" stroke-width="3"/>
+        <circle cx="1062" cy="230.75" r="25.666125535421198" stroke="#f00" stroke-width="5" fill="#f00" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="987" y1="285.5" x2="1062" y2="285.5" stroke="#08f" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1062" cy="285.5" r="18.2208671582886" stroke="#08f" fill="#08f" fill-opacity="0.6"/>
+        <line x1="987" y1="285.5" x2="1062" y2="285.5" stroke="#08f" stroke-width="3"/>
+        <circle cx="1062" cy="285.5" r="18.2208671582886" stroke="#08f" stroke-width="5" fill="#08f" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="987" y1="449.75" x2="1062" y2="340.25" stroke="#888" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1062" cy="340.25" r="13.910427743243556" stroke="#888" fill="#888" fill-opacity="0.6"/>
+        <line x1="987" y1="449.75" x2="1062" y2="340.25" stroke="#888" stroke-width="3"/>
+        <circle cx="1062" cy="340.25" r="13.910427743243556" stroke="#888" stroke-width="5" fill="#888" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="987" y1="395.0" x2="1062" y2="395.0" stroke="#f08" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1062" cy="395.0" r="13.665650368716449" stroke="#f08" fill="#f08" fill-opacity="0.6"/>
+        <line x1="987" y1="395.0" x2="1062" y2="395.0" stroke="#f08" stroke-width="3"/>
+        <circle cx="1062" cy="395.0" r="13.665650368716449" stroke="#f08" stroke-width="5" fill="#f08" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="987" y1="340.25" x2="1062" y2="449.75" stroke="#000" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1062" cy="449.75" r="12.114041439585717" stroke="#000" fill="#000" fill-opacity="0.6"/>
+        <line x1="987" y1="340.25" x2="1062" y2="449.75" stroke="#000" stroke-width="3"/>
+        <circle cx="1062" cy="449.75" r="12.114041439585717" stroke="#000" stroke-width="5" fill="#000" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="987" y1="559.25" x2="1062" y2="504.5" stroke="#fc0" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1062" cy="504.5" r="11.045361017187261" stroke="#fc0" fill="#fc0" fill-opacity="0.6"/>
+        <line x1="987" y1="559.25" x2="1062" y2="504.5" stroke="#fc0" stroke-width="3"/>
+        <circle cx="1062" cy="504.5" r="11.045361017187261" stroke="#fc0" stroke-width="5" fill="#fc0" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="987" y1="504.5" x2="1062" y2="559.25" stroke="#080" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1062" cy="559.25" r="10.862780491200215" stroke="#080" fill="#080" fill-opacity="0.6"/>
+        <line x1="987" y1="504.5" x2="1062" y2="559.25" stroke="#080" stroke-width="3"/>
+        <circle cx="1062" cy="559.25" r="10.862780491200215" stroke="#080" stroke-width="5" fill="#080" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="987" y1="668.75" x2="1062" y2="614.0" stroke="#f80" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1062" cy="614.0" r="10.037429949942366" stroke="#f80" fill="#f80" fill-opacity="0.6"/>
+        <line x1="987" y1="668.75" x2="1062" y2="614.0" stroke="#f80" stroke-width="3"/>
+        <circle cx="1062" cy="614.0" r="10.037429949942366" stroke="#f80" stroke-width="5" fill="#f80" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="987" y1="723.5" x2="1062" y2="668.75" stroke="#ccc" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1062" cy="668.75" r="9.643650760992955" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <line x1="987" y1="723.5" x2="1062" y2="668.75" stroke="#ccc" stroke-width="3"/>
+        <circle cx="1062" cy="668.75" r="9.643650760992955" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="987" y1="614.0" x2="1062" y2="723.5" stroke="#8f0" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1062" cy="723.5" r="9.486832980505138" stroke="#8f0" fill="#8f0" fill-opacity="0.6"/>
+        <line x1="987" y1="614.0" x2="1062" y2="723.5" stroke="#8f0" stroke-width="3"/>
+        <circle cx="1062" cy="723.5" r="9.486832980505138" stroke="#8f0" stroke-width="5" fill="#8f0" fill-opacity="1"/>
       </g>
       <g>
-        <circle cx="1062" cy="778.25" r="4.153311931459037" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <circle cx="1062" cy="778.25" r="4.153311931459037" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
     </g>
     <g>
       <text x="1137" y="176" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">65-69</text>
       <g>
-        <line x1="1062" y1="230.75" x2="1137" y2="230.75" stroke="#f00" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1137" cy="230.75" r="27.892651361962706" stroke="#f00" fill="#f00" fill-opacity="0.6"/>
+        <line x1="1062" y1="230.75" x2="1137" y2="230.75" stroke="#f00" stroke-width="3"/>
+        <circle cx="1137" cy="230.75" r="27.892651361962706" stroke="#f00" stroke-width="5" fill="#f00" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="1062" y1="285.5" x2="1137" y2="285.5" stroke="#08f" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1137" cy="285.5" r="19.862024066041204" stroke="#08f" fill="#08f" fill-opacity="0.6"/>
+        <line x1="1062" y1="285.5" x2="1137" y2="285.5" stroke="#08f" stroke-width="3"/>
+        <circle cx="1137" cy="285.5" r="19.862024066041204" stroke="#08f" stroke-width="5" fill="#08f" fill-opacity="1"/>
         <text x="1137" y="285.5" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="black">Cancers</text>
       </g>
       <g>
-        <line x1="1062" y1="340.25" x2="1137" y2="340.25" stroke="#888" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1137" cy="340.25" r="16.99264546796643" stroke="#888" fill="#888" fill-opacity="0.6"/>
+        <line x1="1062" y1="340.25" x2="1137" y2="340.25" stroke="#888" stroke-width="3"/>
+        <circle cx="1137" cy="340.25" r="16.99264546796643" stroke="#888" stroke-width="5" fill="#888" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="1062" y1="395.0" x2="1137" y2="395.0" stroke="#f08" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1137" cy="395.0" r="15.288884851420656" stroke="#f08" fill="#f08" fill-opacity="0.6"/>
+        <line x1="1062" y1="395.0" x2="1137" y2="395.0" stroke="#f08" stroke-width="3"/>
+        <circle cx="1137" cy="395.0" r="15.288884851420656" stroke="#f08" stroke-width="5" fill="#f08" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="1062" y1="614.0" x2="1137" y2="449.75" stroke="#f80" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1137" cy="449.75" r="13.209844813622906" stroke="#f80" fill="#f80" fill-opacity="0.6"/>
+        <line x1="1062" y1="614.0" x2="1137" y2="449.75" stroke="#f80" stroke-width="3"/>
+        <circle cx="1137" cy="449.75" r="13.209844813622906" stroke="#f80" stroke-width="5" fill="#f80" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="1062" y1="668.75" x2="1137" y2="504.5" stroke="#ccc" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1137" cy="504.5" r="12.599603168354152" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <line x1="1062" y1="668.75" x2="1137" y2="504.5" stroke="#ccc" stroke-width="3"/>
+        <circle cx="1137" cy="504.5" r="12.599603168354152" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="1062" y1="449.75" x2="1137" y2="559.25" stroke="#000" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1137" cy="559.25" r="12.419742348374221" stroke="#000" fill="#000" fill-opacity="0.6"/>
+        <line x1="1062" y1="449.75" x2="1137" y2="559.25" stroke="#000" stroke-width="3"/>
+        <circle cx="1137" cy="559.25" r="12.419742348374221" stroke="#000" stroke-width="5" fill="#000" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="1062" y1="504.5" x2="1137" y2="614.0" stroke="#fc0" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1137" cy="614.0" r="12.30853362509117" stroke="#fc0" fill="#fc0" fill-opacity="0.6"/>
+        <line x1="1062" y1="504.5" x2="1137" y2="614.0" stroke="#fc0" stroke-width="3"/>
+        <circle cx="1137" cy="614.0" r="12.30853362509117" stroke="#fc0" stroke-width="5" fill="#fc0" fill-opacity="1"/>
         <text x="1137" y="614.0" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="black">Genito-urinary</text>
       </g>
       <g>
-        <line x1="1062" y1="559.25" x2="1137" y2="668.75" stroke="#080" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1137" cy="668.75" r="11.6081867662439" stroke="#080" fill="#080" fill-opacity="0.6"/>
+        <line x1="1062" y1="559.25" x2="1137" y2="668.75" stroke="#080" stroke-width="3"/>
+        <circle cx="1137" cy="668.75" r="11.6081867662439" stroke="#080" stroke-width="5" fill="#080" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="1062" y1="723.5" x2="1137" y2="723.5" stroke="#8f0" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1137" cy="723.5" r="9.759610647971568" stroke="#8f0" fill="#8f0" fill-opacity="0.6"/>
+        <line x1="1062" y1="723.5" x2="1137" y2="723.5" stroke="#8f0" stroke-width="3"/>
+        <circle cx="1137" cy="723.5" r="9.759610647971568" stroke="#8f0" stroke-width="5" fill="#8f0" fill-opacity="1"/>
         <text x="1137" y="723.5" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="black">Digestive</text>
       </g>
       <g>
-        <circle cx="1137" cy="778.25" r="4.272001872658765" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <circle cx="1137" cy="778.25" r="4.272001872658765" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
     </g>
     <g>
       <text x="1212" y="176" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">70-74</text>
       <g>
-        <line x1="1137" y1="230.75" x2="1212" y2="230.75" stroke="#f00" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1212" cy="230.75" r="28.066884401372377" stroke="#f00" fill="#f00" fill-opacity="0.6"/>
+        <line x1="1137" y1="230.75" x2="1212" y2="230.75" stroke="#f00" stroke-width="3"/>
+        <circle cx="1212" cy="230.75" r="28.066884401372377" stroke="#f00" stroke-width="5" fill="#f00" fill-opacity="1"/>
         <text x="1212" y="230.75" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="black">Heart</text>
       </g>
       <g>
-        <line x1="1137" y1="340.25" x2="1212" y2="285.5" stroke="#888" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1212" cy="285.5" r="18.76166303929372" stroke="#888" fill="#888" fill-opacity="0.6"/>
+        <line x1="1137" y1="340.25" x2="1212" y2="285.5" stroke="#888" stroke-width="3"/>
+        <circle cx="1212" cy="285.5" r="18.76166303929372" stroke="#888" stroke-width="5" fill="#888" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="1137" y1="285.5" x2="1212" y2="340.25" stroke="#08f" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1212" cy="340.25" r="18.701604209265042" stroke="#08f" fill="#08f" fill-opacity="0.6"/>
+        <line x1="1137" y1="285.5" x2="1212" y2="340.25" stroke="#08f" stroke-width="3"/>
+        <circle cx="1212" cy="340.25" r="18.701604209265042" stroke="#08f" stroke-width="5" fill="#08f" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="1137" y1="504.5" x2="1212" y2="395.0" stroke="#ccc" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1212" cy="395.0" r="16.64331697709324" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <line x1="1137" y1="504.5" x2="1212" y2="395.0" stroke="#ccc" stroke-width="3"/>
+        <circle cx="1212" cy="395.0" r="16.64331697709324" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="1137" y1="395.0" x2="1212" y2="449.75" stroke="#f08" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1212" cy="449.75" r="16.070158679988197" stroke="#f08" fill="#f08" fill-opacity="0.6"/>
+        <line x1="1137" y1="395.0" x2="1212" y2="449.75" stroke="#f08" stroke-width="3"/>
+        <circle cx="1212" cy="449.75" r="16.070158679988197" stroke="#f08" stroke-width="5" fill="#f08" fill-opacity="1"/>
         <text x="1212" y="449.75" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="black">Metabolic</text>
       </g>
       <g>
-        <line x1="1137" y1="449.75" x2="1212" y2="504.5" stroke="#f80" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1212" cy="504.5" r="15.92953232207399" stroke="#f80" fill="#f80" fill-opacity="0.6"/>
+        <line x1="1137" y1="449.75" x2="1212" y2="504.5" stroke="#f80" stroke-width="3"/>
+        <circle cx="1212" cy="504.5" r="15.92953232207399" stroke="#f80" stroke-width="5" fill="#f80" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="1137" y1="668.75" x2="1212" y2="559.25" stroke="#080" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1212" cy="559.25" r="12.165525060596439" stroke="#080" fill="#080" fill-opacity="0.6"/>
+        <line x1="1137" y1="668.75" x2="1212" y2="559.25" stroke="#080" stroke-width="3"/>
+        <circle cx="1212" cy="559.25" r="12.165525060596439" stroke="#080" stroke-width="5" fill="#080" fill-opacity="1"/>
         <text x="1212" y="559.25" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="black">Infectious</text>
       </g>
       <g>
-        <line x1="1137" y1="614.0" x2="1212" y2="614.0" stroke="#fc0" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1212" cy="614.0" r="11.800423721205947" stroke="#fc0" fill="#fc0" fill-opacity="0.6"/>
+        <line x1="1137" y1="614.0" x2="1212" y2="614.0" stroke="#fc0" stroke-width="3"/>
+        <circle cx="1212" cy="614.0" r="11.800423721205947" stroke="#fc0" stroke-width="5" fill="#fc0" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="1137" y1="559.25" x2="1212" y2="668.75" stroke="#000" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1212" cy="668.75" r="10.571187255932987" stroke="#000" fill="#000" fill-opacity="0.6"/>
+        <line x1="1137" y1="559.25" x2="1212" y2="668.75" stroke="#000" stroke-width="3"/>
+        <circle cx="1212" cy="668.75" r="10.571187255932987" stroke="#000" stroke-width="5" fill="#000" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="1137" y1="723.5" x2="1212" y2="723.5" stroke="#8f0" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1212" cy="723.5" r="8.73212459828649" stroke="#8f0" fill="#8f0" fill-opacity="0.6"/>
+        <line x1="1137" y1="723.5" x2="1212" y2="723.5" stroke="#8f0" stroke-width="3"/>
+        <circle cx="1212" cy="723.5" r="8.73212459828649" stroke="#8f0" stroke-width="5" fill="#8f0" fill-opacity="1"/>
       </g>
       <g>
-        <circle cx="1212" cy="778.25" r="4.55521678957215" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <circle cx="1212" cy="778.25" r="4.55521678957215" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
     </g>
     <g>
       <text x="1287" y="176" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">75-79</text>
       <g>
-        <line x1="1212" y1="230.75" x2="1287" y2="230.75" stroke="#f00" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1287" cy="230.75" r="26.24404694402142" stroke="#f00" fill="#f00" fill-opacity="0.6"/>
+        <line x1="1212" y1="230.75" x2="1287" y2="230.75" stroke="#f00" stroke-width="3"/>
+        <circle cx="1287" cy="230.75" r="26.24404694402142" stroke="#f00" stroke-width="5" fill="#f00" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="1212" y1="395.0" x2="1287" y2="285.5" stroke="#ccc" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1287" cy="285.5" r="19.893466264077762" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <line x1="1212" y1="395.0" x2="1287" y2="285.5" stroke="#ccc" stroke-width="3"/>
+        <circle cx="1287" cy="285.5" r="19.893466264077762" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="1212" y1="285.5" x2="1287" y2="340.25" stroke="#888" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1287" cy="340.25" r="18.881207588499205" stroke="#888" fill="#888" fill-opacity="0.6"/>
+        <line x1="1212" y1="285.5" x2="1287" y2="340.25" stroke="#888" stroke-width="3"/>
+        <circle cx="1287" cy="340.25" r="18.881207588499205" stroke="#888" stroke-width="5" fill="#888" fill-opacity="1"/>
         <text x="1287" y="340.25" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="black">Respiratory</text>
       </g>
       <g>
-        <line x1="1212" y1="504.5" x2="1287" y2="395.0" stroke="#f80" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1287" cy="395.0" r="16.837458240482736" stroke="#f80" fill="#f80" fill-opacity="0.6"/>
+        <line x1="1212" y1="504.5" x2="1287" y2="395.0" stroke="#f80" stroke-width="3"/>
+        <circle cx="1287" cy="395.0" r="16.837458240482736" stroke="#f80" stroke-width="5" fill="#f80" fill-opacity="1"/>
         <text x="1287" y="395.0" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="black">Nervous</text>
       </g>
       <g>
-        <line x1="1212" y1="340.25" x2="1287" y2="449.75" stroke="#08f" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1287" cy="449.75" r="15.644487847162015" stroke="#08f" fill="#08f" fill-opacity="0.6"/>
+        <line x1="1212" y1="340.25" x2="1287" y2="449.75" stroke="#08f" stroke-width="3"/>
+        <circle cx="1287" cy="449.75" r="15.644487847162015" stroke="#08f" stroke-width="5" fill="#08f" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="1212" y1="449.75" x2="1287" y2="504.5" stroke="#f08" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1287" cy="504.5" r="14.603081866510234" stroke="#f08" fill="#f08" fill-opacity="0.6"/>
+        <line x1="1212" y1="449.75" x2="1287" y2="504.5" stroke="#f08" stroke-width="3"/>
+        <circle cx="1287" cy="504.5" r="14.603081866510234" stroke="#f08" stroke-width="5" fill="#f08" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="1212" y1="559.25" x2="1287" y2="559.25" stroke="#080" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1287" cy="559.25" r="11.291589790636214" stroke="#080" fill="#080" fill-opacity="0.6"/>
+        <line x1="1212" y1="559.25" x2="1287" y2="559.25" stroke="#080" stroke-width="3"/>
+        <circle cx="1287" cy="559.25" r="11.291589790636214" stroke="#080" stroke-width="5" fill="#080" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="1212" y1="614.0" x2="1287" y2="614.0" stroke="#fc0" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1287" cy="614.0" r="11.280514172678478" stroke="#fc0" fill="#fc0" fill-opacity="0.6"/>
+        <line x1="1212" y1="614.0" x2="1287" y2="614.0" stroke="#fc0" stroke-width="3"/>
+        <circle cx="1287" cy="614.0" r="11.280514172678478" stroke="#fc0" stroke-width="5" fill="#fc0" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="1212" y1="668.75" x2="1287" y2="668.75" stroke="#000" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1287" cy="668.75" r="8.396427811873332" stroke="#000" fill="#000" fill-opacity="0.6"/>
+        <line x1="1212" y1="668.75" x2="1287" y2="668.75" stroke="#000" stroke-width="3"/>
+        <circle cx="1287" cy="668.75" r="8.396427811873332" stroke="#000" stroke-width="5" fill="#000" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="1212" y1="723.5" x2="1287" y2="723.5" stroke="#8f0" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1287" cy="723.5" r="7.088723439378913" stroke="#8f0" fill="#8f0" fill-opacity="0.6"/>
+        <line x1="1212" y1="723.5" x2="1287" y2="723.5" stroke="#8f0" stroke-width="3"/>
+        <circle cx="1287" cy="723.5" r="7.088723439378913" stroke="#8f0" stroke-width="5" fill="#8f0" fill-opacity="1"/>
       </g>
       <g>
-        <circle cx="1287" cy="778.25" r="4.5" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <circle cx="1287" cy="778.25" r="4.5" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
     </g>
     <g>
       <text x="1362" y="176" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">80-84</text>
       <g>
-        <line x1="1287" y1="285.5" x2="1362" y2="230.75" stroke="#ccc" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1362" cy="230.75" r="23.280893453645632" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <line x1="1287" y1="285.5" x2="1362" y2="230.75" stroke="#ccc" stroke-width="3"/>
+        <circle cx="1362" cy="230.75" r="23.280893453645632" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="1287" y1="230.75" x2="1362" y2="285.5" stroke="#f00" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1362" cy="285.5" r="22.102036105300343" stroke="#f00" fill="#f00" fill-opacity="0.6"/>
+        <line x1="1287" y1="230.75" x2="1362" y2="285.5" stroke="#f00" stroke-width="3"/>
+        <circle cx="1362" cy="285.5" r="22.102036105300343" stroke="#f00" stroke-width="5" fill="#f00" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="1287" y1="340.25" x2="1362" y2="340.25" stroke="#888" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1362" cy="340.25" r="17.783419243778738" stroke="#888" fill="#888" fill-opacity="0.6"/>
+        <line x1="1287" y1="340.25" x2="1362" y2="340.25" stroke="#888" stroke-width="3"/>
+        <circle cx="1362" cy="340.25" r="17.783419243778738" stroke="#888" stroke-width="5" fill="#888" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="1287" y1="395.0" x2="1362" y2="395.0" stroke="#f80" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1362" cy="395.0" r="16.03901493234544" stroke="#f80" fill="#f80" fill-opacity="0.6"/>
+        <line x1="1287" y1="395.0" x2="1362" y2="395.0" stroke="#f80" stroke-width="3"/>
+        <circle cx="1362" cy="395.0" r="16.03901493234544" stroke="#f80" stroke-width="5" fill="#f80" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="1287" y1="504.5" x2="1362" y2="449.75" stroke="#f08" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1362" cy="449.75" r="11.74734012447073" stroke="#f08" fill="#f08" fill-opacity="0.6"/>
+        <line x1="1287" y1="504.5" x2="1362" y2="449.75" stroke="#f08" stroke-width="3"/>
+        <circle cx="1362" cy="449.75" r="11.74734012447073" stroke="#f08" stroke-width="5" fill="#f08" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="1287" y1="449.75" x2="1362" y2="504.5" stroke="#08f" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1362" cy="504.5" r="11.280514172678478" stroke="#08f" fill="#08f" fill-opacity="0.6"/>
+        <line x1="1287" y1="449.75" x2="1362" y2="504.5" stroke="#08f" stroke-width="3"/>
+        <circle cx="1362" cy="504.5" r="11.280514172678478" stroke="#08f" stroke-width="5" fill="#08f" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="1287" y1="559.25" x2="1362" y2="559.25" stroke="#080" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1362" cy="559.25" r="10.476163419878482" stroke="#080" fill="#080" fill-opacity="0.6"/>
+        <line x1="1287" y1="559.25" x2="1362" y2="559.25" stroke="#080" stroke-width="3"/>
+        <circle cx="1362" cy="559.25" r="10.476163419878482" stroke="#080" stroke-width="5" fill="#080" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="1287" y1="614.0" x2="1362" y2="614.0" stroke="#fc0" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1362" cy="614.0" r="9.656603957913983" stroke="#fc0" fill="#fc0" fill-opacity="0.6"/>
+        <line x1="1287" y1="614.0" x2="1362" y2="614.0" stroke="#fc0" stroke-width="3"/>
+        <circle cx="1362" cy="614.0" r="9.656603957913983" stroke="#fc0" stroke-width="5" fill="#fc0" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="1287" y1="668.75" x2="1362" y2="668.75" stroke="#000" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1362" cy="668.75" r="7.0710678118654755" stroke="#000" fill="#000" fill-opacity="0.6"/>
+        <line x1="1287" y1="668.75" x2="1362" y2="668.75" stroke="#000" stroke-width="3"/>
+        <circle cx="1362" cy="668.75" r="7.0710678118654755" stroke="#000" stroke-width="5" fill="#000" fill-opacity="1"/>
       </g>
       <g>
-        <line x1="1287" y1="723.5" x2="1362" y2="723.5" stroke="#8f0" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1362" cy="723.5" r="5.744562646538029" stroke="#8f0" fill="#8f0" fill-opacity="0.6"/>
+        <line x1="1287" y1="723.5" x2="1362" y2="723.5" stroke="#8f0" stroke-width="3"/>
+        <circle cx="1362" cy="723.5" r="5.744562646538029" stroke="#8f0" stroke-width="5" fill="#8f0" fill-opacity="1"/>
       </g>
       <g>
-        <circle cx="1362" cy="778.25" r="3.968626966596886" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <circle cx="1362" cy="778.25" r="3.968626966596886" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
     </g>
     <g>
       <text x="1437" y="176" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">85-120</text>
       <g>
         <text x="1512.047619047619" y="230.75" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">Top</text>
-        <line x1="1362" y1="230.75" x2="1437" y2="230.75" stroke="#ccc" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1437" cy="230.75" r="30.907118921051183" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <line x1="1362" y1="230.75" x2="1437" y2="230.75" stroke="#ccc" stroke-width="3"/>
+        <circle cx="1437" cy="230.75" r="30.907118921051183" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
         <text x="1437" y="230.75" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="black">Unspecified</text>
       </g>
       <g>
         <text x="1512.047619047619" y="285.5" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">2nd</text>
-        <line x1="1362" y1="285.5" x2="1437" y2="285.5" stroke="#f00" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1437" cy="285.5" r="21.324868112136123" stroke="#f00" fill="#f00" fill-opacity="0.6"/>
+        <line x1="1362" y1="285.5" x2="1437" y2="285.5" stroke="#f00" stroke-width="3"/>
+        <circle cx="1437" cy="285.5" r="21.324868112136123" stroke="#f00" stroke-width="5" fill="#f00" fill-opacity="1"/>
       </g>
       <g>
         <text x="1512.047619047619" y="340.25" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">3rd</text>
-        <line x1="1362" y1="340.25" x2="1437" y2="340.25" stroke="#888" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1437" cy="340.25" r="18.527007313648905" stroke="#888" fill="#888" fill-opacity="0.6"/>
+        <line x1="1362" y1="340.25" x2="1437" y2="340.25" stroke="#888" stroke-width="3"/>
+        <circle cx="1437" cy="340.25" r="18.527007313648905" stroke="#888" stroke-width="5" fill="#888" fill-opacity="1"/>
       </g>
       <g>
         <text x="1512.047619047619" y="395.0" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">4th</text>
-        <line x1="1362" y1="395.0" x2="1437" y2="395.0" stroke="#f80" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1437" cy="395.0" r="16.703293088490067" stroke="#f80" fill="#f80" fill-opacity="0.6"/>
+        <line x1="1362" y1="395.0" x2="1437" y2="395.0" stroke="#f80" stroke-width="3"/>
+        <circle cx="1437" cy="395.0" r="16.703293088490067" stroke="#f80" stroke-width="5" fill="#f80" fill-opacity="1"/>
       </g>
       <g>
         <text x="1512.047619047619" y="449.75" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">5th</text>
-        <line x1="1362" y1="449.75" x2="1437" y2="449.75" stroke="#f08" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1437" cy="449.75" r="10.793516572461451" stroke="#f08" fill="#f08" fill-opacity="0.6"/>
+        <line x1="1362" y1="449.75" x2="1437" y2="449.75" stroke="#f08" stroke-width="3"/>
+        <circle cx="1437" cy="449.75" r="10.793516572461451" stroke="#f08" stroke-width="5" fill="#f08" fill-opacity="1"/>
       </g>
       <g>
         <text x="1512.047619047619" y="504.5" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">6th</text>
-        <line x1="1362" y1="559.25" x2="1437" y2="504.5" stroke="#080" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1437" cy="504.5" r="9.746794344808963" stroke="#080" fill="#080" fill-opacity="0.6"/>
+        <line x1="1362" y1="559.25" x2="1437" y2="504.5" stroke="#080" stroke-width="3"/>
+        <circle cx="1437" cy="504.5" r="9.746794344808963" stroke="#080" stroke-width="5" fill="#080" fill-opacity="1"/>
       </g>
       <g>
         <text x="1512.047619047619" y="559.25" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">7th</text>
-        <line x1="1362" y1="614.0" x2="1437" y2="559.25" stroke="#fc0" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1437" cy="559.25" r="9.682458365518542" stroke="#fc0" fill="#fc0" fill-opacity="0.6"/>
+        <line x1="1362" y1="614.0" x2="1437" y2="559.25" stroke="#fc0" stroke-width="3"/>
+        <circle cx="1437" cy="559.25" r="9.682458365518542" stroke="#fc0" stroke-width="5" fill="#fc0" fill-opacity="1"/>
       </g>
       <g>
         <text x="1512.047619047619" y="614.0" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">8th</text>
-        <line x1="1362" y1="504.5" x2="1437" y2="614.0" stroke="#08f" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1437" cy="614.0" r="8.470537173048708" stroke="#08f" fill="#08f" fill-opacity="0.6"/>
+        <line x1="1362" y1="504.5" x2="1437" y2="614.0" stroke="#08f" stroke-width="3"/>
+        <circle cx="1437" cy="614.0" r="8.470537173048708" stroke="#08f" stroke-width="5" fill="#08f" fill-opacity="1"/>
       </g>
       <g>
         <text x="1512.047619047619" y="668.75" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">9th</text>
-        <line x1="1362" y1="668.75" x2="1437" y2="668.75" stroke="#000" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1437" cy="668.75" r="6.6332495807108" stroke="#000" fill="#000" fill-opacity="0.6"/>
+        <line x1="1362" y1="668.75" x2="1437" y2="668.75" stroke="#000" stroke-width="3"/>
+        <circle cx="1437" cy="668.75" r="6.6332495807108" stroke="#000" stroke-width="5" fill="#000" fill-opacity="1"/>
       </g>
       <g>
         <text x="1512.047619047619" y="723.5" text-anchor="middle" dominant-baseline="middle" font-size="19.5" font-family="TCM_____" fill="#444">10th</text>
-        <line x1="1362" y1="723.5" x2="1437" y2="723.5" stroke="#8f0" stroke-width="3" stroke-opacity="0.6" opacity="0.6" fill-opacity="0.6"/>
-        <circle cx="1437" cy="723.5" r="4.69041575982343" stroke="#8f0" fill="#8f0" fill-opacity="0.6"/>
+        <line x1="1362" y1="723.5" x2="1437" y2="723.5" stroke="#8f0" stroke-width="3"/>
+        <circle cx="1437" cy="723.5" r="4.69041575982343" stroke="#8f0" stroke-width="5" fill="#8f0" fill-opacity="1"/>
       </g>
       <g>
-        <circle cx="1437" cy="778.25" r="4.183300132670378" stroke="#ccc" fill="#ccc" fill-opacity="0.6"/>
+        <circle cx="1437" cy="778.25" r="4.183300132670378" stroke="#ccc" stroke-width="5" fill="#ccc" fill-opacity="1"/>
       </g>
     </g>
   </g>
   <g>
-    <text x="800" y="833.25" text-anchor="middle" dominant-baseline="middle" font-size="13" font-family="TCM_____" fill="#888">Data by The Department of Census and Statistics, Sri Lanka |Visualization by @nuuuwan</text>
+    <text x="800" y="833.25" text-anchor="middle" dominant-baseline="middle" font-size="26" font-family="TCM_____" fill="#888">Data by The Department of Census and Statistics, Sri Lanka · Visualization by @nuuuwan</text>
   </g>
 </svg>

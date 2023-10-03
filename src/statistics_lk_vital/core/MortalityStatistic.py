@@ -59,9 +59,9 @@ class MortalityStatistic:
         ws = wb.create_sheet(gender)
         n_descriptions = len(idx_da.keys())
 
-        ws.cell(1, 1).value = 'Row Code'
-        ws.cell(1, 2).value = 'Long'
-        ws.cell(1, 3).value = 'Short'
+        ws.cell(1, 1).value = 'Row Code'  # noqa
+        ws.cell(1, 2).value = 'Long'  # noqa
+        ws.cell(1, 3).value = 'Short'  # noqa
         offset_i_col_data = 4
         i_row = -1
 
@@ -71,17 +71,20 @@ class MortalityStatistic:
                 continue
             i_row += 1
 
-            ws.cell(i_row + 2, 1).value = _description.row_code
-            ws.cell(i_row + 2, 2).value = _description.details
-            ws.cell(i_row + 2, 3).value = _description.simple
+            ws.cell(i_row + 2, 1).value = _description.row_code  # noqa
+            ws.cell(i_row + 2, 2).value = _description.details  # noqa
+            ws.cell(i_row + 2, 3).value = _description.simple  # noqa
 
             for i_col, age_range in enumerate(idx_da[description].keys()):
                 if i_row == 0:
-                    ws.cell(1, i_col + offset_i_col_data).value = age_range
+                    ws.cell(  # noqa
+                        1, i_col + offset_i_col_data
+                    ).value = age_range
 
                 deaths = idx_da[description][age_range]
-                ws.cell(i_row + 2, i_col + offset_i_col_data).value = deaths
-
+                ws.cell(  # noqa
+                    i_row + 2, i_col + offset_i_col_data
+                ).value = deaths
         log.debug(f'Wrote {n_descriptions} descriptions for {gender}')
 
     @staticmethod
